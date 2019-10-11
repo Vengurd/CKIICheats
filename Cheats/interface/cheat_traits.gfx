@@ -1,0 +1,23 @@
+spriteTypes = {
+	spriteType = {
+	name = "GFX_trait_lesser_cheat"
+	texturefile = "gfx/traits/lesser_cheat.dds"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_cheat"
+	texturefile = "gfx/traits/cheat.dds"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_greater_cheat"
+	texturefile = "gfx/traits/greater_cheat.dds"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

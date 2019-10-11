@@ -1,0 +1,81 @@
+yognaut = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	playable = yes
+	ai_convert_same_group = 0
+	ai_convert_other_group = 2
+	
+	male_names = {
+		Lewis Simon Paul Duncan Chris Martyn Joakim Liam Alex Ross Sam Keith John Dave Steven Matt Phil Toby William Mark Ted Alex Rick Ørjan Harry Rich Ciaran Adam Colin Tom Si Alex Adrian Ben Nathan Fred Daryl
+	}
+	female_names = {
+		Hannah Kim Zoey Anya Nina-Serena Ferazhin
+	}
+	
+	sipsist = {
+		graphical_culture = westerngfx
+		
+		icon = 54
+		
+		color = { 100 75 30 }
+		
+		scripture_name = ARCHIVE_SIPS
+		priest_title = DICK_RIPPER
+		god_names = {
+			GOD_SIPS GOD_MAG_BAS GOD_DIRT GOD_SIPSCO GOD_RG_BG
+		}
+		evil_god_names = {
+			GOD_LAZER_EYE
+		}	
+		investiture = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_grant_invasion_cb = invasion
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		allow_looting = yes
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 0
+	}
+}
+what_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	playable = yes
+	ai_convert_same_group = 0
+	ai_convert_other_group = 2
+	
+	order_of_what = {
+		graphical_culture = westerngfx
+		
+		icon = 53
+		
+		color = { 100 25 25 }
+		
+		scripture_name = SCRIPTURE_OF_WHAT
+		priest_title = PRIEST #Prior for count, abbott for duke
+		god_names = {
+			GOD_KING
+		}
+		evil_god_names = {
+			INFIDEL_GODS
+		}	
+		investiture = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_grant_invasion_cb = invasion
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		allow_looting = yes
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 0
+	}
+}

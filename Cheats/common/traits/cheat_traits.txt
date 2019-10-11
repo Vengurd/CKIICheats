@@ -1,0 +1,138 @@
+greater_cheat = {
+    martial = 100
+    diplomacy = 100
+    stewardship = 100
+    learning = 100
+    intrigue = 100
+    health = 100
+    combat_rating = 100
+    max_manpower_mult = 100
+    
+    birth = 0
+    inherit_chance = 0
+    random = no
+    ruler_designer_cost = -100
+    
+    vassal_opinion = 100
+    general_opinion = 100
+    
+    monthly_character_piety = 100
+    monthly_character_prestige = 100
+    
+    leadership_traits = 50
+    command_modifier = {
+        terrain = plains
+        terrain = farmlands
+        terrain = steppe
+        terrain = hills
+        terrain = forest
+        terrain = mountain
+        terrain = desert
+        terrain = jungle
+        
+        morale_offence = 5
+        morale_defence = 5
+        defence = 5
+        damage = 5
+        pursue = 5
+        siege = 5
+        speed = 5
+        retreat = 5
+        
+        light_infantry = 5
+        heavy_infantry = 5
+        cavalry = 5
+    }    
+    
+    levy_size = 100
+    
+    demesne_size = 100
+    
+}
+cheat = {
+    martial = 75
+    diplomacy = 75
+    stewardship = 75
+    learning = 75
+    intrigue = 75
+    health = 75
+    combat_rating = 75
+    max_manpower_mult = 75
+
+    birth = 0
+    inherit_chance = 0
+    random = no
+    ruler_designer_cost = -75
+    
+    vassal_opinion = 75
+    general_opinion = 75
+    
+    monthly_character_piety = 75
+    monthly_character_prestige = 75
+    
+    leadership_traits = 50
+    command_modifier = {
+        terrain = plains
+        terrain = farmlands
+        terrain = steppe
+        terrain = hills
+        terrain = forest
+        terrain = mountain
+        terrain = desert
+        terrain = jungle
+        
+        morale_offence = 5
+        morale_defence = 5
+        defence = 5
+        damage = 5
+        pursue = 5
+        siege = 5
+        speed = 5
+        retreat = 5
+        
+        light_infantry = 5
+        heavy_infantry = 5
+        cavalry = 5
+    }    
+    
+    levy_size = 100
+    
+    demesne_size = 500000
+    
+}
+lesser_cheat = {
+    martial = 50
+    diplomacy = 50
+    stewardship = 50
+    learning = 50
+    intrigue = 50
+    health = 50
+    combat_rating = 50
+
+    birth = 0
+    inherit_chance = 0
+    random = no
+    ruler_designer_cost = -50
+    
+    levy_size = 50
+    
+    demesne_size = 50
+}
+cheatling = {
+    martial = 15
+    diplomacy = 15
+    stewardship = 15
+    learning = 15
+    intrigue = 15
+    health = 15
+    combat_rating = 15
+
+    birth = 0
+    inherit_chance = 0
+    random = no
+    ruler_designer_cost = -15
+    
+    levy_size = 15
+    
+    demesne_size = 15
+}

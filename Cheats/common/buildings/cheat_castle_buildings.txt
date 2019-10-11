@@ -1,0 +1,490 @@
+castle = {
+####Treasury####
+    cheat_feudal_treasury_1 = {
+        desc = cheat_treasury_desc
+        trigger = { FROM = { trait = cheat } }
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        tax_income = 100
+        global_movement_speed = 1000
+    }
+    cheat_feudal_treasury_2 = {
+        desc = cheat_treasury_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_treasury_1 }
+        upgrades_from = cheat_feudal_treasury_1
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        tax_income = 100
+    }
+    cheat_feudal_treasury_3 = {
+        desc = cheat_treasury_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_treasury_2 }
+        upgrades_from = cheat_feudal_treasury_2
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        tax_income = 100
+    }
+    cheat_feudal_treasury_4 = {
+        desc = cheat_treasury_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_treasury_3 }
+        upgrades_from = cheat_feudal_treasury_3
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        tax_income = 100
+    }
+    cheat_feudal_treasury_5 = {
+        desc = cheat_treasury_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_treasury_4 }
+        upgrades_from = cheat_feudal_treasury_4
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        tax_income = 100
+    }
+    cheat_feudal_treasury_6 = {
+        desc = cheat_treasury_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_treasury_5 }
+        upgrades_from = cheat_feudal_treasury_5
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        tax_income = 100
+    }
+    cheat_feudal_treasury_7 = {
+        desc = cheat_treasury_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_treasury_6 }
+        upgrades_from = cheat_feudal_treasury_6
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        tax_income = 100
+    }
+    cheat_feudal_treasury_8 = {
+        desc = cheat_treasury_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_treasury_7 }
+        upgrades_from = cheat_feudal_treasury_7
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        tax_income = 100
+    }
+    cheat_feudal_treasury_9 = {
+        desc = cheat_treasury_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_treasury_8 }
+        upgrades_from = cheat_feudal_treasury_8
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        tax_income = 100
+    }
+    cheat_feudal_treasury_10 = {
+        desc = cheat_treasury_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_treasury_9 }
+        upgrades_from = cheat_feudal_treasury_9
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        tax_income = 100
+    }
+####Fort####
+    cheat_feudal_fort_1 = {
+        desc = cheat_fort_desc
+        trigger = { FROM = { trait = cheat } }
+        gold_cost = 0
+        build_time = 0
+        fort_level = 50
+        commander_limit = 1
+        garrison_size = 5000
+        ai_creation_factor = 0
+    }
+    cheat_feudal_fort_2 = {
+        desc = cheat_fort_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_fort_1 }
+        upgrades_from = cheat_feudal_fort_1
+        gold_cost = 0
+        build_time = 0
+        fort_level = 50
+        commander_limit = 1
+        garrison_size = 5000
+        ai_creation_factor = 0
+    }
+    cheat_feudal_fort_3 = {
+        desc = cheat_fort_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_fort_2 }
+        upgrades_from = cheat_feudal_fort_2
+        gold_cost = 0
+        build_time = 0
+        fort_level = 50
+        commander_limit = 1
+        garrison_size = 5000
+        ai_creation_factor = 0
+    }
+    cheat_feudal_fort_4 = {
+        desc = cheat_fort_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_fort_3 }
+        upgrades_from = cheat_feudal_fort_3
+        gold_cost = 0
+        build_time = 0
+        fort_level = 50
+        commander_limit = 1
+        garrison_size = 5000
+        ai_creation_factor = 0
+    }
+    cheat_feudal_fort_5 = {
+        desc = cheat_fort_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_fort_4 }
+        upgrades_from = cheat_feudal_fort_4
+        gold_cost = 0
+        build_time = 0
+        fort_level = 50
+        commander_limit = 1
+        garrison_size = 5000
+        ai_creation_factor = 0
+    }
+    cheat_feudal_fort_6 = {
+        desc = cheat_fort_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_fort_5 }
+        upgrades_from = cheat_feudal_fort_5
+        gold_cost = 0
+        build_time = 0
+        fort_level = 50
+        commander_limit = 1
+        garrison_size = 5000
+        ai_creation_factor = 0
+    }
+    cheat_feudal_fort_7 = {
+        desc = cheat_fort_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_fort_6 }
+        upgrades_from = cheat_feudal_fort_6
+        gold_cost = 0
+        build_time = 0
+        fort_level = 50
+        commander_limit = 1
+        garrison_size = 5000
+        ai_creation_factor = 0
+    }
+    cheat_feudal_fort_8 = {
+        desc = cheat_fort_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_fort_7 }
+        upgrades_from = cheat_feudal_fort_7
+        gold_cost = 0
+        build_time = 0
+        fort_level = 50
+        commander_limit = 1
+        garrison_size = 5000
+        ai_creation_factor = 0
+    }
+    cheat_feudal_fort_9 = {
+        desc = cheat_fort_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_fort_8 }
+        upgrades_from = cheat_feudal_fort_8
+        gold_cost = 0
+        build_time = 0
+        fort_level = 50
+        commander_limit = 1
+        garrison_size = 5000
+        ai_creation_factor = 0
+    }
+    cheat_feudal_fort_10 = {
+        desc = cheat_fort_desc
+        trigger = { FROM = { trait = cheat } }
+        prerequisites = { cheat_feudal_fort_9 }
+        upgrades_from = cheat_feudal_fort_9
+        gold_cost = 0
+        build_time = 0
+        fort_level = 50
+        commander_limit = 1
+        garrison_size = 5000
+        ai_creation_factor = 0
+    }
+###Army####
+    cheat_army_level_1 = {
+        desc = cheat_army_desc
+        trigger = { 
+        is_capital = yes
+        FROM = { trait = cheat }
+        }
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+        retinue_maintenence_cost = -10
+        levy_size = 5000
+    }
+    cheat_army_level_2 = {
+        desc = cheat_army_desc
+        trigger = { 
+        is_capital = yes
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_army_level_1 }
+        upgrades_from = cheat_army_level_1
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+        levy_size = 5000
+    }
+    cheat_army_level_3 = {
+        desc = cheat_army_desc
+        trigger = { 
+        is_capital = yes
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_army_level_2 }
+        upgrades_from = cheat_army_level_2
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+        levy_size = 5000
+    }
+    cheat_army_level_4 = {
+        desc = cheat_army_desc
+        trigger = { 
+        is_capital = yes
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_army_level_3 }
+        upgrades_from = cheat_army_level_3
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+        levy_size = 5000
+    }
+    cheat_army_level_5 = {
+        desc = cheat_army_desc
+        trigger = { 
+        is_capital = yes
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_army_level_4 }
+        upgrades_from = cheat_army_level_4
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+        levy_size = 5000
+    }
+    cheat_army_level_6 = {
+        desc = cheat_army_desc
+        trigger = { 
+        is_capital = yes
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_army_level_5 }
+        upgrades_from = cheat_army_level_5
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+        levy_size = 5000
+    }
+    cheat_army_level_7 = {
+        desc = cheat_army_desc
+        trigger = { 
+        is_capital = yes
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_army_level_6 }
+        upgrades_from = cheat_army_level_6
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+        levy_size = 5000
+    }
+    cheat_army_level_8 = {
+        desc = cheat_army_desc
+        trigger = { 
+        is_capital = yes
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_army_level_7 }
+        upgrades_from = cheat_army_level_7
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+        levy_size = 5000
+    }
+    cheat_army_level_9 = {
+        desc = cheat_army_desc
+        trigger = { 
+        is_capital = yes
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_army_level_8 }
+        upgrades_from = cheat_army_level_8
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+        levy_size = 5000
+    }
+    cheat_army_level_10 = {
+        desc = cheat_army_desc
+        trigger = { 
+        is_capital = yes
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_army_level_9 }
+        upgrades_from = cheat_army_level_9
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+        levy_size = 5000
+    }
+####Navy####
+    cheat_retinue_galley_1 = {
+        desc = cheat_retinue_desc
+        port = yes
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        gold_cost = 0
+        build_time = 0
+        galleys = 100
+        ai_creation_factor = 0
+    }
+    cheat_retinue_galley_2 = {
+        desc = cheat_retinue_desc
+        port = yes
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_galley_1 }
+        upgrades_from = cheat_retinue_galley_1
+        gold_cost = 0
+        build_time = 0
+        galleys = 100
+        ai_creation_factor = 0
+    }
+    cheat_retinue_galley_3 = {
+        desc = cheat_retinue_desc
+        port = yes
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_galley_2 }
+        upgrades_from = cheat_retinue_galley_2
+        gold_cost = 0
+        build_time = 0
+        galleys = 100
+        ai_creation_factor = 0
+    }
+    cheat_retinue_galley_4 = {
+        desc = cheat_retinue_desc
+        port = yes
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_galley_3 }
+        upgrades_from = cheat_retinue_galley_3
+        gold_cost = 0
+        build_time = 0
+        galleys = 100
+        ai_creation_factor = 0
+    }
+    cheat_retinue_galley_5 = {
+        desc = cheat_retinue_desc
+        port = yes
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_galley_4 }
+        upgrades_from = cheat_retinue_galley_4
+        gold_cost = 0
+        build_time = 0
+        galleys = 100
+        ai_creation_factor = 0
+    }
+    cheat_retinue_galley_6 = {
+        desc = cheat_retinue_desc
+        port = yes
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_galley_5 }
+        upgrades_from = cheat_retinue_galley_5
+        gold_cost = 0
+        build_time = 0
+        galleys = 100
+        ai_creation_factor = 0
+    }
+    cheat_retinue_galley_7 = {
+        desc = cheat_retinue_desc
+        port = yes
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_galley_6 }
+        upgrades_from = cheat_retinue_galley_6
+        gold_cost = 0
+        build_time = 0
+        galleys = 100
+        ai_creation_factor = 0
+    }
+    cheat_retinue_galley_8 = {
+        desc = cheat_retinue_desc
+        port = yes
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_galley_7 }
+        upgrades_from = cheat_retinue_galley_7
+        gold_cost = 0
+        build_time = 0
+        galleys = 100
+        ai_creation_factor = 0
+    }
+    cheat_retinue_galley_9 = {
+        desc = cheat_retinue_desc
+        port = yes
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_galley_8 }
+        upgrades_from = cheat_retinue_galley_8
+        gold_cost = 0
+        build_time = 0
+        galleys = 100
+        ai_creation_factor = 0
+    }
+    cheat_retinue_galley_10 = {
+        desc = cheat_retinue_desc
+        port = yes
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_galley_9 }
+        upgrades_from = cheat_retinue_galley_9
+        gold_cost = 0
+        build_time = 0
+        galleys = 100
+        ai_creation_factor = 0
+    }
+}

@@ -1,0 +1,446 @@
+decisions = {
+    cheat_revoke = {
+        potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+            any_realm_title = {
+                NOT = { holder = ROOT }
+            }
+        }
+        effect = {
+            any_vassal = {
+                any_vassal = {
+                    any_vassal = {
+                        any_vassal = {
+                            any_demesne_title = {
+                            gain_title = ROOT
+                            limit = {
+                                OR = {
+                                    tier = count
+                                    tier = baron
+                                }
+                            }
+                            }
+                        }
+                    any_demesne_title = {
+                        gain_title = ROOT
+                        limit = {
+                            OR = {
+                                tier = count
+                                tier = baron
+                            }
+                        }
+                    }
+                    }
+                any_demesne_title = {
+                    gain_title = ROOT
+                    limit = {
+                        OR = {
+                            tier = count
+                            tier = baron
+                        }
+                    }
+                }
+                }
+                any_demesne_title = {
+                    gain_title = ROOT
+                    limit = {
+                        OR = {
+                            tier = count
+                            tier = baron
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+    cheat_gold = {
+        potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        effect = {
+            wealth = 5000
+        }
+        ai_will_do = { factor = 0 }
+    }
+    cheat_prestige = {
+
+        potential = {
+            ai = no
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        effect = {
+            prestige = 5000
+        }
+        ai_will_do = { factor = 0 }
+    }
+    cheat_piety = {
+
+        potential = {
+            ai = no
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        effect = {
+            piety = 5000
+        }
+        ai_will_do = { factor = 0 }
+    }
+    cheat_culture_tech = {
+
+        potential = {
+            ai = no
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        effect = {
+            culture_techpoints = 5000
+        }
+        ai_will_do = { factor = 0 }
+    }
+    cheat_economy_tech = {
+
+        potential = {
+            ai = no
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        effect = {
+            economy_techpoints = 5000
+        }
+        ai_will_do = { factor = 0 }
+    }
+    add_military_tech = {
+
+        potential = {
+            ai = no
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        effect = {
+            military_techpoints = 5000
+        }
+        ai_will_do = { factor = 0 }
+    }
+    cheat_grace = {
+
+        potential = {
+            ai = no
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        effect = {
+            add_offmap_currency = { offmap = offmap_china value = 5000 }
+        }
+        ai_will_do = { factor = 0 }
+    }
+    cheat_society_points = {
+
+        potential = {
+            ai = no
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+            is_in_society = yes
+        }
+        effect = {
+            change_society_currency = 5000
+        }
+        ai_will_do = { factor = 0 }
+    }
+    cheat_society_rank = {
+
+        potential = {
+            ai = no
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+            is_in_society = yes
+            society_rank < 4
+        }
+        effect = {
+            society_rank_up = 1
+        }
+        ai_will_do = { factor = 0 }
+    }
+    cheat_religious_conversion = {
+        potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+            any_realm_province = {
+                NOT = { religion = FROM }
+            }
+            any_realm_character = {
+                NOT = { religion = FROM }
+            }
+        }
+        effect = {
+            any_realm_character = {
+                religion = ROOT
+                limit = {
+                    NOT = { religion = FROM }
+                }
+            }
+            any_realm_province = {
+                religion = FROM
+                limit = {
+                    NOT = { religion = FROM }
+                }
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+    cheat_culture_conversion = {
+        potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+            any_realm_province = {
+                NOT = { culture = FROM }
+            }
+            any_realm_character = {
+                NOT = { culture = FROM }
+            }
+        }
+        effect = {
+            any_realm_character = {
+                culture = ROOT
+                limit = {
+                    NOT = { culture = FROM }
+                }
+            }
+            any_realm_province = {
+                culture = FROM
+                limit = {
+                    NOT = { culture = FROM }
+                }
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+    cheat_ethnicity_conversion = {
+        potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+            any_realm_character = {
+                NOT = { graphical_culture = FROM }
+            }
+        }
+        effect = {
+            any_realm_character = {
+                set_graphical_culture = ROOT
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+    cheat_remove_bad_modifiers_from_provinces = {
+        is_high_prio = yes
+        potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+            any_realm_title = {
+                has_holding_modifier = recently_conquered
+                has_holding_modifier = new_administration
+            }
+        }
+        effect = {
+            any_realm_title = {
+                remove_holding_modifier = recently_conquered
+                remove_holding_modifier = new_administration
+                refill_holding_levy = yes
+            }
+        }
+    }
+    cheat_rel_authority = {
+
+        potential = {
+            ai = no
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+            NOT = { religion_authority = 1}
+        }
+
+        allow = {
+            always = yes
+        }
+
+        effect = {
+            religion_authority = { modifier = god_amongst_men }
+        }
+    }
+    cheat_independent = {
+
+        potential = {
+            ai = no
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+            independent = no
+        }
+
+        allow = {
+            always = yes
+        }
+
+        effect = {
+            set_defacto_liege = THIS
+        }
+    }
+    cheat_feudal = {
+
+        potential = {
+            ai = no
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+            NOT = { government = feudal_government }
+        }
+
+        allow = {
+            always = yes
+        }
+
+        effect = {
+            set_government_type = feudal_government
+        }
+    }
+    cheat_all_titles = {
+
+        potential = {
+            ai = no
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+
+        allow = {
+            always = yes
+        }
+
+        effect = {
+            any_vassal = {
+                limit = { 
+                    NOT = { tier = baron }
+                    is_nomadic = no 
+                }
+                any_demesne_title = {
+                    limit = { 
+                        is_patrician = no
+                        mercenary = no
+                        holy_order = no
+                        is_landless_type_title = no 
+                    }
+                    gain_title = FROM
+                }
+            }
+        }
+    }
+    cheat_threat_level = {
+        potential = {
+            ai = no
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+
+        allow = {
+            always = yes
+        }
+
+        effect = {
+            ROOT = { 
+                change_infamy = {
+                    value = -10000
+                    localisation = Cheated
+                }
+            }
+        }
+    }
+    kill_all_courtiers = {
+        potential = {
+            ai = no
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+
+        allow = {
+            always = yes
+        }
+
+        effect = {
+            any_courtier = {
+                limit = {
+                    NOR = { 
+                    dynasty = ROOT
+                    is_married = ROOT
+                    is_consort = ROOT
+                    is_friend = ROOT
+                    is_lover = ROOT
+                    is_ruler = yes
+                    is_mother = ROOT
+                    is_father = ROOT
+
+                    }
+                }
+                death = { death_reason = death_murder_unknown killer = FROM } 
+            }
+        }
+    }
+
+}

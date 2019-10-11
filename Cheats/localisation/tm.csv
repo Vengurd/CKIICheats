@@ -1,0 +1,61 @@
+
+# Decisions
+#Mark Title
+ahip01;(TM)Mark Duchy;;;;;;;;;;;;;x
+ahip01_desc;Mark Duke-tier title to transfer counties to it. Remember to only have one title marked at once.;;;;;;;;;;;;;x
+ahip01_custom_tooltip;Mark Duke-tier title to transfer counties to it. Remember to only have one title marked at once.;;;;;;;;;;;;;x
+#Unmark Title
+ahip02;(TM)Unmark Duchy;;;;;;;;;;;;;x
+ahip02_desc;Unmark Duke-tier title to avoid transferring more counties to it.;;;;;;;;;;;;;x
+ahip02_custom_tooltip;Unmark Duke-tier title to avoid transferring more counties to it.;;;;;;;;;;;;;x
+#Transfer County
+ahip03;(TM)Transfer County;;;;;;;;;;;;;x
+ahip03_desc;Transfer this county to the previously marked Duke-tier title. Avoid using this if you have not marked any title.;;;;;;;;;;;;;x
+ahip03_custom_tooltip;Transfer this county to the previously marked Duke-tier title. Avoid using this if you have not marked any title.;;;;;;;;;;;;;x
+#Mark Duchy
+ahip01;(TM)Mark Duchy;;;;;;;;;;;;;x
+ahip01_desc;Mark Duke-tier title to transfer duchies to it. Remember to only have one title marked at once.;;;;;;;;;;;;;x
+ahip01_custom_tooltip;Mark Duke-tier title to transfer duchies to it. Remember to only have one title marked at once.;;;;;;;;;;;;;x
+#Unmark Title
+ahip02;(TM)Unmark Duchy;;;;;;;;;;;;;x
+ahip02_desc;Unmark Duke-tier title to avoid transferring more duchies to it.;;;;;;;;;;;;;x
+ahip02_custom_tooltip;Unmark Duke-tier title to avoid transferring more duchies to it.;;;;;;;;;;;;;x
+#Transfer Duchy
+ahip03;(TM)Transfer Duchy;;;;;;;;;;;;;x
+ahip03_desc;Transfer this duchy to the previously marked Duke-tier title. Avoid using this if you have not marked any title.;;;;;;;;;;;;;x
+ahip03_custom_tooltip;Transfer this duchy to the previously marked Duke-tier title. Avoid using this if you have not marked any title.;;;;;;;;;;;;;x
+ahip04;(TM)Mark Kingdom;;;;;;;;;;;;;x
+ahip04_desc;Mark King-tier title to transfer duchies to it. Remember to only have one title marked at once.;;;;;;;;;;;;;x
+ahip04_custom_tooltip;Mark King-tier title to transfer duchies to it. Remember to only have one title marked at once.;;;;;;;;;;;;;x
+#Unmark Title
+ahip05;(TM)Unmark Kingdom;;;;;;;;;;;;;x
+ahip05_desc;Unmark King-tier title to avoid transferring more duchies to it.;;;;;;;;;;;;;x
+ahip05_custom_tooltip;Unmark King-tier title to avoid transferring more duchies to it.;;;;;;;;;;;;;x
+#Transfer Duchy
+ahip06;(TM)Transfer Duchy;;;;;;;;;;;;;x
+ahip06_desc;Transfer this duchy to the previously marked King-tier title. Avoid using this if you have not marked any title.;;;;;;;;;;;;;x
+ahip06_custom_tooltip;Transfer this duchy to the previously marked King-tier title. Avoid using this if you have not marked any title.;;;;;;;;;;;;;x
+#Copy Title's History
+ahip07;(TM)Copy Title's History;;;;;;;;;;;;;x
+ahip07_custom_tooltip;Copy this title's history to your primary title's;;;;;;;;;;;;;x
+ahip07_desc;Copy this title's history to your primary title's;;;;;;;;;;;;;x
+#Create custom Kingdom title
+ahip08;(TM)Create Kingdom Title;;;;;;;;;;;;;x
+ahip08_custom_tooltip;Create a Kingdom title based on this title;;;;;;;;;;;;;x
+ahip08_desc;Create a Kingdom title based on this title;;;;;;;;;;;;;x
+#Mark Empire
+ahip09;(TM)Mark Empire;;;;;;;;;;;;;x
+ahip09_custom_tooltip;Mark Empire-tier title to transfer kingdoms to it. Remember to only have one title marked at once.;;;;;;;;;;;;;x
+ahip09_desc;Mark Empire-tier title to transfer kingdoms to it. Remember to only have one title marked at once.;;;;;;;;;;;;;x
+#Unmark Empire
+ahip010;(TM)Unmark Empire;;;;;;;;;;;;;x
+ahip010_desc;Unmark Empire-tier title to avoid transferring more kingdoms to it.;;;;;;;;;;;;;x
+ahip010_custom_tooltip;Unmark Empire-tier title to avoid transferring more kingdoms to it.;;;;;;;;;;;;;x
+#Transfer Duchy
+ahip011;(TM)Transfer Kingdom;;;;;;;;;;;;;x
+ahip011_desc;Transfer this kingdom to the previously marked Empire-tier title. Avoid using this if you have not marked any title.;;;;;;;;;;;;;x
+ahip011_custom_tooltip;Transfer this kingdom to the previously marked Empire-tier title. Avoid using this if you have not marked any title.;;;;;;;;;;;;;x
+#Create custom Empire title
+ahip012;(TM)Create Empire Title;;;;;;;;;;;;;x
+ahip012_custom_tooltip;Create a Empire title based on this title;;;;;;;;;;;;;x
+ahip012_desc;Create a Empire title based on this title;;;;;;;;;;;;;x

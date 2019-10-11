@@ -1,0 +1,861 @@
+title_decisions = { 
+    add_claim = {
+        filter = owned
+        
+        from_potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+            NOT = {owns = ROOT}
+        }
+        potential = {
+            higher_tier_than = BARON
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+        add_claim = FROM
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    take_title = {
+        filter = owned
+        
+        from_potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+            NOT = {owns = ROOT}
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+        gain_title = FROM
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    destroy_title = {
+        filter = owned
+        
+        from_potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+            NOT = {owns = ROOT}
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+        destroy_title = ROOT
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    #Mark Duchy
+    ahip01 = {
+        is_high_prio = no # Will show an alert if special action is available
+        filter = all
+        
+        potential = {
+            tier = duke
+            not = { has_title_flag = marked_duchy }
+            
+        }
+        
+        allow = {
+            ROOT = { 
+                tier = duke
+                temporary = no
+            }
+        }
+        
+        effect = {
+            any_title = {
+                limit = { 
+                    has_title_flag = marked_duchy
+                }
+                clr_title_flag = marked_duchy
+            }
+            set_title_flag = marked_duchy
+        }
+        
+        revoke_allowed = {
+        always = no #Not used in vanilla
+        }
+        
+        ai_will_do = {
+        factor = 0
+        }
+    }
+    #Unmark Duchy
+    ahip02 = {
+        is_high_prio = no # Will show an alert if special action is available
+        filter = all
+        
+        
+        potential = {
+            tier = king
+            has_title_flag = marked_duchy
+        }
+        
+        effect = {
+            clr_title_flag = marked_duchy
+        }
+        
+        revoke_allowed = {
+        always = no #Not used in vanilla
+        }
+        
+        ai_will_do = {
+        factor = 0
+        }
+    }
+    #Transfer County to De-Jure Duchy
+    ahip03 = {
+        filter = all
+        is_high_prio = no # Will show an alert if special action is available
+        
+        potential = {
+            tier = count
+            not = { has_title_flag = marked_duchy }
+        }
+        
+        allow = {
+            tier = count
+        }
+        
+        effect = {
+            any_title = {
+                limit = {
+                    has_title_flag = marked_duchy
+                }
+                prev = {
+                    de_jure_liege = prev 
+                }
+            }
+        }
+        
+        revoke_allowed = {
+        always = no #Not used in vanilla
+        }
+        
+        ai_will_do = {
+        factor = 0
+        }
+    }
+    #Transfer Duchy to De-Jure Kingdom
+    ahip04 = {
+        filter = all
+        is_high_prio = no # Will show an alert if special action is available
+        
+        potential = {
+            tier = count
+            not = { has_title_flag = marked_duchy }
+        }
+        
+        allow = {
+            tier = count
+        }
+        
+        effect = {
+            any_title = {
+                limit = {
+                    has_title_flag = marked_duchy
+                }
+                prev = {
+                    de_jure_liege = prev 
+                }
+            }
+        }
+        
+        revoke_allowed = {
+        always = no #Not used in vanilla
+        }
+        
+        ai_will_do = {
+        factor = 0
+        }
+    }
+
+    #Activate Duchy
+    ahip07 = {
+        filter = all
+        is_high_prio = no # Will show an alert if special action is available
+        
+        potential = {
+            tier = count
+            not = { has_title_flag = marked_duchy }
+        }
+        
+        allow = {
+            tier = count
+        }
+        
+        effect = {
+            activate_title = yes
+        }
+        
+        revoke_allowed = {
+        always = no #Not used in vanilla
+        }
+        
+        ai_will_do = {
+        factor = 0
+        }
+    }
+
+    #Mark Kingdom
+    ahip08 = {
+        is_high_prio = no # Will show an alert if special action is available
+        filter = all
+        
+        potential = {
+            tier = king
+            not = { has_title_flag = marked_kingdom }
+            
+        }
+        
+        allow = {
+            ROOT = { 
+                tier = king
+                temporary = no
+            }
+        }
+        
+        effect = {
+            any_title = {
+                limit = { 
+                    has_title_flag = marked_kingdom
+                }
+                clr_title_flag = marked_kingdom
+            }
+            set_title_flag = marked_kingdom
+        }
+        
+        revoke_allowed = {
+        always = no #Not used in vanilla
+        }
+        
+        ai_will_do = {
+        factor = 0
+        }
+    }
+    
+    #Unmark
+    ahip09 = {
+        is_high_prio = no # Will show an alert if special action is available
+        filter = all
+        
+        
+        potential = {
+            tier = king
+            has_title_flag = marked_kingdom
+        }
+        
+        effect = {
+            clr_title_flag = marked_kingdom
+        }
+        
+        revoke_allowed = {
+        always = no #Not used in vanilla
+        }
+        
+        ai_will_do = {
+        factor = 0
+        }
+    }
+
+    #Transfer De-Jure
+    ahip10 = {
+        filter = all
+        is_high_prio = no # Will show an alert if special action is available
+        
+        potential = {
+            tier = duke
+            not = { has_title_flag = marked_kingdom }
+        }
+        
+        allow = {
+            tier = duke
+        }
+        
+        effect = {
+            any_title = {
+                limit = {
+                    has_title_flag = marked_kingdom
+                }
+                prev = {
+                    de_jure_liege = prev 
+                }
+            }
+        }
+        
+        revoke_allowed = {
+        always = no #Not used in vanilla
+        }
+        
+        ai_will_do = {
+        factor = 0
+        }
+    }
+        
+    #Copy Title History
+    ahip11 = {
+        filter = all
+        is_high_prio = no # Will show an alert if special action is available
+        
+        allow = {
+            from = {
+                has_landed_title = prev
+            }
+        }
+        
+        effect = {
+            from = {
+                primary_title = {
+                    copy_title_history = prevprev
+                }
+            }
+        }
+        
+        revoke_allowed = {
+        always = no #Not used in vanilla
+        }
+        
+        ai_will_do = {
+        factor = 0
+        }
+    }
+
+    #Create Titular Kingdom
+    ahip12 = {
+        filter = all
+        is_high_prio = no # Will show an alert if special action is available
+        
+        potential = {
+            tier = duke
+            from = {
+                ai = no
+            }
+        }
+        
+        allow = {
+            tier = duke
+        }
+        
+        effect = {
+            create_title = {
+                tier = KING
+                landless = no
+                temporary = no
+                custom_created = yes
+                culture = ROOT
+                base_title = THIS
+                copy_title_laws = yes
+            }
+        }
+        
+        revoke_allowed = {
+        always = no #Not used in vanilla
+        }
+        
+        ai_will_do = {
+        factor = 0
+        }
+    }
+
+    #Mark Empire
+    ahip13 = {
+        is_high_prio = no # Will show an alert if special action is available
+        filter = all
+        
+        potential = {
+            tier = emperor
+            not = { has_title_flag = marked_empire }
+            
+        }
+        
+        allow = {
+            ROOT = { 
+                tier = emperor
+                temporary = no
+            }
+        }
+        
+        effect = {
+            any_title = {
+                limit = { 
+                    has_title_flag = marked_empire
+                }
+                clr_title_flag = marked_empire
+            }
+            set_title_flag = marked_empire
+        }
+        
+        revoke_allowed = {
+        always = no #Not used in vanilla
+        }
+        
+        ai_will_do = {
+        factor = 0
+        }
+    }
+    
+    #Unmark Empire
+    ahip014 = {
+        is_high_prio = no # Will show an alert if special action is available
+        filter = all
+        
+        
+        potential = {
+            tier = emperor
+            has_title_flag = marked_empire
+        }
+        
+        effect = {
+            clr_title_flag = marked_empire
+        }
+        
+        revoke_allowed = {
+        always = no #Not used in vanilla
+        }
+        
+        ai_will_do = {
+        factor = 0
+        }
+    }
+    
+    #Transfer to De-Jure Empire
+    ahip015 = {
+        filter = all
+        is_high_prio = no # Will show an alert if special action is available
+        
+        potential = {
+            tier = king
+            is_titular = no
+            not = { has_title_flag = marked_empire }
+        }
+        
+        allow = {
+            tier = king
+        }
+        
+        effect = {
+            any_title = {
+                limit = {
+                    has_title_flag = marked_empire
+                }
+                prev = {
+                    de_jure_liege = prev 
+                }
+            }
+        }
+        
+        revoke_allowed = {
+        always = no #Not used in vanilla
+        }
+        
+        ai_will_do = {
+        factor = 0
+        }
+    }    
+    
+    #Create Titular Empire
+    ahip016 = {
+        filter = all
+        is_high_prio = no # Will show an alert if special action is available
+        
+        potential = {
+            tier = king
+            from = {
+                ai = no
+            }
+        }
+        
+        allow = {
+            tier = king
+        }
+        
+        effect = {
+            create_title = {
+                tier = EMPEROR
+                landless = no
+                temporary = no
+                custom_created = yes
+                culture = ROOT
+                base_title = THIS
+                copy_title_laws = yes
+            }
+        }
+        
+        revoke_allowed = {
+        always = no #Not used in vanilla
+        }
+        
+        ai_will_do = {
+        factor = 0
+        }
+    }
+    
+    make_primogeniture = {
+        filter = owned
+        
+        from_potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        potential = {
+            higher_tier_than = COUNT
+            NOT = { has_law = succ_primogeniture}
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+        succession = primogeniture
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    make_gavelkind = {
+        filter = owned
+        
+        from_potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        potential = {
+            higher_tier_than = COUNT
+            NOT = { has_law = succ_gavelkind}
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+        succession = gavelkind
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    make_elective_gavelkind = {
+        filter = owned
+        
+        from_potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        potential = {
+            higher_tier_than = COUNT
+            NOT = { has_law = succ_elective_gavelkind}
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+        succession = elective_gavelkind
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    make_seniority = {
+        filter = owned
+        
+        from_potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        potential = {
+            is_titular = no
+            temporary = no
+            higher_tier_than = COUNT
+            NOT = { has_law = succ_seniority}
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+        succession = seniority
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    make_open = {
+        filter = owned
+        
+        from_potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        potential = {
+            is_titular = no
+            temporary = no
+            higher_tier_than = COUNT
+            NOT = { has_law = succ_turkish_succession}
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+        succession = turkish_succession
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    make_ultimogeniture = {
+        filter = owned
+        
+        from_potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        potential = {
+            is_titular = no
+            temporary = no
+            higher_tier_than = COUNT
+            NOT = { has_law = succ_ultimogeniture}
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+        succession = ultimogeniture
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    make_tanistry = {
+        filter = owned
+        
+        from_potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        potential = {
+            is_titular = no
+            temporary = no
+            higher_tier_than = COUNT
+            NOT = { has_law = succ_tanistry}
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+        succession = tanistry
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    make_elective = {
+        filter = owned
+        
+        from_potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        potential = {
+            is_titular = no
+            temporary = no
+            higher_tier_than = COUNT
+            NOT = { has_law = succ_feudal_elective}
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+        succession = feudal_elective
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    make_agnatic = {
+        filter = owned
+        
+        from_potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        potential = {
+            is_titular = no
+            temporary = no
+            higher_tier_than = COUNT
+            NOT = { has_law = agnatic_succession}
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+        gender_succ = agnatic
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    make_cognatic = {
+        filter = owned
+        
+        from_potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        potential = {
+            is_titular = no
+            temporary = no
+            higher_tier_than = COUNT
+            NOT = { has_law = cognatic_succession}
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+        gender_succ = cognatic
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    make_true_cognatic = {
+        filter = owned
+        
+        from_potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        potential = {
+            is_titular = no
+            temporary = no
+            higher_tier_than = COUNT
+            NOT = { has_law = true_cognatic_succession}
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+        gender_succ = true_cognatic
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    make_enatic = {
+        filter = owned
+        
+        from_potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        potential = {
+            is_titular = no
+            temporary = no
+            higher_tier_than = COUNT
+            NOT = { has_law = enatic_succession}
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+        gender_succ = enatic
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    make_enatic_cognatic = {
+        filter = owned
+        
+        from_potential = {
+            OR = {
+                trait = lesser_cheat
+                trait = cheat
+                trait = greater_cheat
+            }
+        }
+        potential = {
+            is_titular = no
+            temporary = no
+            higher_tier_than = COUNT
+            NOT = { has_law = enatic_cognatic_succession}
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+        gender_succ = enatic_cognatic
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}

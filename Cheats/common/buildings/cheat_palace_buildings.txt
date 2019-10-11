@@ -1,0 +1,125 @@
+family_palace = {
+    cheat_retinue_merch_level_1 = {
+        desc = cheat_retinue_desc
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        gold_cost = 0
+        build_time = 0
+        fort_level = 50
+        ai_creation_factor = 0
+        max_tradeposts = 500000
+        tax_income = 100
+        retinuesize = 5000
+        galleys = 500
+        port = yes
+    }
+    cheat_retinue_merch_level_2 = {
+        desc = cheat_retinue_desc
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_merch_level_1 }
+        upgrades_from = cheat_retinue_merch_level_1
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+    }
+    cheat_retinue_merch_level_3 = {
+        desc = cheat_retinue_desc
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_merch_level_2 }
+        upgrades_from = cheat_retinue_merch_level_2
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+    }
+    cheat_retinue_merch_level_4 = {
+        desc = cheat_retinue_desc
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_merch_level_3 }
+        upgrades_from = cheat_retinue_merch_level_3
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+    }
+    cheat_retinue_merch_level_5 = {
+        desc = cheat_retinue_desc
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_merch_level_4 }
+        upgrades_from = cheat_retinue_merch_level_4
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+    }
+    cheat_retinue_merch_level_6 = {
+        desc = cheat_retinue_desc
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_merch_level_5 }
+        upgrades_from = cheat_retinue_merch_level_5
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+    }
+    cheat_retinue_merch_level_7 = {
+        desc = cheat_retinue_desc
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_merch_level_6 }
+        upgrades_from = cheat_retinue_merch_level_6
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+    }
+    cheat_retinue_merch_level_8 = {
+        desc = cheat_retinue_desc
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_merch_level_7 }
+        upgrades_from = cheat_retinue_merch_level_7
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+    }
+    cheat_retinue_merch_level_9 = {
+        desc = cheat_retinue_desc
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_merch_level_8 }
+        upgrades_from = cheat_retinue_merch_level_8
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+    }
+    cheat_retinue_merch_level_10 = {
+        desc = cheat_retinue_desc
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        prerequisites = { cheat_retinue_merch_level_9 }
+        upgrades_from = cheat_retinue_merch_level_9
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        retinuesize = 5000
+    }
+}

@@ -1,0 +1,161 @@
+##BUILDINGS
+###Castle
+cheat_feudal_treasury_1;Cheatopian Treasury;;;;;;;;;x
+cheat_feudal_treasury_2;Cheatopian Treasury;;;;;;;;;x
+cheat_feudal_treasury_3;Cheatopian Treasury;;;;;;;;;x
+cheat_feudal_treasury_4;Cheatopian Treasury;;;;;;;;;x
+cheat_feudal_treasury_5;Cheatopian Treasury;;;;;;;;;x
+cheat_feudal_treasury_6;Cheatopian Treasury;;;;;;;;;x
+cheat_feudal_treasury_7;Cheatopian Treasury;;;;;;;;;x
+cheat_feudal_treasury_8;Cheatopian Treasury;;;;;;;;;x
+cheat_feudal_treasury_9;Cheatopian Treasury;;;;;;;;;x
+cheat_feudal_treasury_10;Cheatopian Treasury;;;;;;;;;x
+cheat_feudal_fort_1;Cheatopian Walls;;;;;;;;;x
+cheat_feudal_fort_2;Cheatopian Walls;;;;;;;;;x
+cheat_feudal_fort_3;Cheatopian Walls;;;;;;;;;x
+cheat_feudal_fort_4;Cheatopian Walls;;;;;;;;;x
+cheat_feudal_fort_5;Cheatopian Walls;;;;;;;;;x
+cheat_feudal_fort_6;Cheatopian Walls;;;;;;;;;x
+cheat_feudal_fort_7;Cheatopian Walls;;;;;;;;;x
+cheat_feudal_fort_8;Cheatopian Walls;;;;;;;;;x
+cheat_feudal_fort_9;Cheatopian Walls;;;;;;;;;x
+cheat_feudal_fort_10;Cheatopian Walls;;;;;;;;;x
+cheat_retinue_level_1;Cheatopia;;;;;;;;;x
+cheat_retinue_level_2;Cheatopia;;;;;;;;;x
+cheat_retinue_level_3;Cheatopia;;;;;;;;;x
+cheat_retinue_level_4;Cheatopia;;;;;;;;;x
+cheat_retinue_level_5;Cheatopia;;;;;;;;;x
+cheat_retinue_level_6;Cheatopia;;;;;;;;;x
+cheat_retinue_level_7;Cheatopia;;;;;;;;;x
+cheat_retinue_level_8;Cheatopia;;;;;;;;;x
+cheat_retinue_level_9;Cheatopia;;;;;;;;;x
+cheat_retinue_level_10;Cheatopia;;;;;;;;;x
+cheat_retinue_galley_1;Cheatopian Docks;;;;;;;;;x
+cheat_retinue_galley_2;Cheatopian Docks;;;;;;;;;x
+cheat_retinue_galley_3;Cheatopian Docks;;;;;;;;;x
+cheat_retinue_galley_4;Cheatopian Docks;;;;;;;;;x
+cheat_retinue_galley_5;Cheatopian Docks;;;;;;;;;x
+cheat_retinue_galley_6;Cheatopian Docks;;;;;;;;;x
+cheat_retinue_galley_7;Cheatopian Docks;;;;;;;;;x
+cheat_retinue_galley_8;Cheatopian Docks;;;;;;;;;x
+cheat_retinue_galley_9;Cheatopian Docks;;;;;;;;;x
+cheat_retinue_galley_10;Cheatopian Docks;;;;;;;;;x
+###City
+cheat_city_treasury_1;Cheatopian Treasury;;;;;;;;;x
+cheat_city_treasury_2;Cheatopian Treasury;;;;;;;;;x
+cheat_city_treasury_3;Cheatopian Treasury;;;;;;;;;x
+cheat_city_treasury_4;Cheatopian Treasury;;;;;;;;;x
+cheat_city_treasury_5;Cheatopian Treasury;;;;;;;;;x
+cheat_city_treasury_6;Cheatopian Treasury;;;;;;;;;x
+cheat_city_treasury_7;Cheatopian Treasury;;;;;;;;;x
+cheat_city_treasury_8;Cheatopian Treasury;;;;;;;;;x
+cheat_city_treasury_9;Cheatopian Treasury;;;;;;;;;x
+cheat_city_treasury_10;Cheatopian Treasury;;;;;;;;;x
+cheat_city_fort_1;Cheatopian Walls;;;;;;;;;x
+cheat_city_fort_2;Cheatopian Walls;;;;;;;;;x
+cheat_city_fort_3;Cheatopian Walls;;;;;;;;;x
+cheat_city_fort_4;Cheatopian Walls;;;;;;;;;x
+cheat_city_fort_5;Cheatopian Walls;;;;;;;;;x
+cheat_city_fort_6;Cheatopian Walls;;;;;;;;;x
+cheat_city_fort_7;Cheatopian Walls;;;;;;;;;x
+cheat_city_fort_8;Cheatopian Walls;;;;;;;;;x
+cheat_city_fort_9;Cheatopian Walls;;;;;;;;;x
+cheat_city_fort_10;Cheatopian Walls;;;;;;;;;x
+###Temple
+cheat_temple_treasury_1;Cheatopian Treasury;;;;;;;;;x
+cheat_temple_fort_1;Cheatopian Walls;;;;;;;;;x
+###Tribe
+cheat_trib_treasury;Cheatopian Treasury;;;;;;;;;x
+cheat_trib_fort;Cheatopian Walls;;;;;;;;;x
+cheat_retinue_trib_level_1;Cheatopia Level 1;;;;;;;;;x
+cheat_retinue_trib_level_2;Cheatopia Level 2;;;;;;;;;x
+cheat_retinue_trib_level_3;Cheatopia Level 3;;;;;;;;;x
+cheat_retinue_trib_level_4;Cheatopia Level 4;;;;;;;;;x
+cheat_retinue_trib_level_5;Cheatopia Level 5;;;;;;;;;x
+cheat_retinue_trib_level_6;Cheatopia Level 6;;;;;;;;;x
+cheat_retinue_trib_level_7;Cheatopia Level 7;;;;;;;;;x
+cheat_retinue_trib_level_8;Cheatopia Level 8;;;;;;;;;x
+cheat_retinue_trib_level_9;Cheatopia Level 9;;;;;;;;;x
+cheat_retinue_trib_level_10;Cheatopia Level 10;;;;;;;;;x
+cheat_retinue_trib_galley_1;Cheatopian Docks Level 1;;;;;;;;;x
+cheat_retinue_trib_galley_2;Cheatopian Docks Level 2;;;;;;;;;x
+cheat_retinue_trib_galley_3;Cheatopian Docks Level 3;;;;;;;;;x
+cheat_retinue_trib_galley_4;Cheatopian Docks Level 4;;;;;;;;;x
+cheat_retinue_trib_galley_5;Cheatopian Docks Level 5;;;;;;;;;x
+###Palace
+cheat_retinue_merch_level_1;Cheatopia Level 1;;;;;;;;;x
+cheat_retinue_merch_level_2;Cheatopia Level 2;;;;;;;;;x
+cheat_retinue_merch_level_3;Cheatopia Level 3;;;;;;;;;x
+cheat_retinue_merch_level_4;Cheatopia Level 4;;;;;;;;;x
+cheat_retinue_merch_level_5;Cheatopia Level 5;;;;;;;;;x
+cheat_retinue_merch_level_6;Cheatopia Level 6;;;;;;;;;x
+cheat_retinue_merch_level_7;Cheatopia Level 7;;;;;;;;;x
+cheat_retinue_merch_level_8;Cheatopia Level 8;;;;;;;;;x
+cheat_retinue_merch_level_9;Cheatopia Level 9;;;;;;;;;x
+cheat_retinue_merch_level_10;Cheatopia Level 10;;;;;;;;;x
+cheat_retinue_desc;They say cheaters never prosper, right? Show them otherwise with these buildings.;;;;;;;;;;;x
+
+
+
+##CBTYPES
+CB_NAME_FULL_INVASION;Full Invasion;;;;;;;;;x
+
+
+
+##TITLES
+e_cheat_order;Cheat Order;;;;;;;;x
+e_sipsist;Sipsco;;;;;;;;;x
+MAG_BAS;Magnificent Bastard;;;;;;;;;x
+MAG_BAS_FOA;My Magnificent Bastard;;;;;;;;;x
+GOD_KING_FOA;Your Holy Majesty;;;;;;;;;x
+GOD_QUEEN;God Queen;;;;;;;;;x
+cheat_order_form_need_holy_site;You need to control Rome, Madrid, Westminster, St. Peters, or Paris.;;;;;;;;;x
+
+
+
+##RELIGIONS 
+yognaut;Yognau(gh)t;;;;;;;;;x
+sipsist;Sipsist;;;;;;;;;x
+sipsist_DESC;The Sipsist populace believe in the Real Guy, Sips. They follow an archive of his best sayings and doings.;;;;;;;;;x
+ARCHIVE_SIPS;Sips Video Archive;;;;;;;;;x
+DICK_RIPPER;Dick Ripper;;;;;;;;;x
+GOD_SIPS;Sips;;;;;;;;;x
+GOD_MAG_BAS;the Magnificent Bastard;;;;;;;;;x
+GOD_DIRT;His Dirt;;;;;;;;;x
+GOD_SIPSCO;the Sipsco;;;;;;;;;x
+GOD_RG_BG;the Real Guy, the Best Guy;;;;;;;;;x
+GOD_LAZER_EYE;Ol' Lazer Eye;;;;;;;;;x
+cheat_group;Cheat;;;;;;;;;x
+order_of_Cheat;Order of Cheat;;;;;;;;;x
+order_of_cheat_DESC;The Cheat Order is a polytheistic religion based on no central god. They believe that any man who is powerful enough to gain the Cheat Empire and proclaim himself the God-King is the one true god. They believe that once the God-King has united the world under His Holiest Empire, all men and women shall live in peace and prosperity.;;;;;;;;;x
+SCRIPTURE_OF_Cheat;Cheat Scriptura;;;;;;;;;x
+GOD_KING;God King;;;;;;;;;x
+INFIDEL_GODS;Infidel Gods;;;;;;;;x
+temple_count_order_of_Cheat;Prior;;;;;;;;;x
+temple_count_female_order_of_Cheat;Prioress;;;;;;;;;x
+temple_county_of_order_of_Cheat;Priory of;;;;;;;;;x
+temple_duke_order_of_Cheat;Abbott;;;;;;;;;x
+temple_duke_female_order_of_Cheat;Abbess;;;;;;;;;x
+temple_duchy_of_order_of_Cheat;Abbey of;;;;;;;;;x
+temple_king_order_of_Cheat;Grand Master;;;;;;;;;x
+temple_king_female_order_of_Cheat;Grand Master;;;;;;;;;x
+temple_kingdom_of_order_of_Cheat;Order of;;;;;;;;;x
+cheat_order_creation;In order to create His Holiest Empire, you must first have 1000 Piety and be God reborn.;;;;;;;;;x
+
+
+
+##Retinues
+
+
+
+##Special Troops
+
+
+
+##TRAITS
+greater_cheat;Greater Cheat;;;;;;;;;x
+greater_cheat_desc;This character is the result of vexatious cheating. Practically indestructible.;;;;;;;;;;;x
+cheat;Cheat;;;;;;;;;;x
+cheat_desc;This character is the result of vexatious cheating.;;;;;;;;;;;x
+lesser_cheat;Lesser Cheat;;;;;;;;;x
+lesser_cheat_desc;This character, although not as vexatious as their Greater counterpart, is still a cheater.;;;;;;;;;x

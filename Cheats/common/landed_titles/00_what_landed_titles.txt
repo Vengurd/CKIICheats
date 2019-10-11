@@ -1,0 +1,126 @@
+e_what_order = {
+    color={ 100 25 25 }
+    color2={ 0 0 0 }
+    
+    graphical_culture = holygfx
+    
+    dignity = 100
+    
+    capital = 32 # Middlesex
+    
+    creation_requires_capital = no
+    
+    #primary = yes
+    title = "GOD_KING"
+    title_female = "GOD_QUEEN"
+    foa = "GOD_KING_FOA"
+    
+    location_ruler_title = yes
+    duchy_revokation = yes
+    county_revokation = yes
+    barony_revokation = yes
+    kingdom_revokation = yes
+    viceroy_revokation = yes
+    
+    religion=order_of_what
+    controls_religion = order_of_what
+    
+    allow = {
+        OR = {
+            AND = {
+                trait = what
+            }
+            AND = {
+                custom_tooltip = {
+                text = what_order_form_need_holy_site
+                hidden_tooltip = {
+                OR = {
+                    b_roma = {
+                        owner = {
+                                OR = {
+                                    is_liege_or_above = ROOT
+                                    character = ROOT
+                                }
+                        }
+                    }
+                    b_madrid = {
+                        owner = {
+                                OR = {
+                                    is_liege_or_above = ROOT
+                                    character = ROOT
+                                }
+                        }
+                    }
+                    b_westminster = {
+                        owner = {
+                                OR = {
+                                    is_liege_or_above = ROOT
+                                    character = ROOT
+                                }
+                        }
+                    }
+                    b_st_peters = {
+                        owner = {
+                                OR = {
+                                    is_liege_or_above = ROOT
+                                    character = ROOT
+                                }
+                        }
+                    }
+                    b_paris = {
+                        owner = {
+                                OR = {
+                                    is_liege_or_above = ROOT
+                                    character = ROOT
+                                }
+                        }
+                    }
+                }
+                }
+                }
+                independent = yes
+                in_revolt = no
+                piety = 5000
+                trait = lesser_what
+            }
+        }
+        religion = order_of_what
+    }
+    
+    caliphate = yes
+}
+e_sipsist = {
+    color={ 100 75 30 }
+    color2={ 0 0 0 }
+    
+    allow = { 
+        piety = 1000
+        independent = yes
+        in_revolt = no
+    }
+    
+    primary = yes
+    title = "MAG_BAS"
+    title_female = "MAG_BAS"
+    foa = "MAG_BAS_FOA"
+    short_name = yes
+    controls_religions = sipsist
+    religion = sipsist
+    
+    caliphate = yes
+}
+b_roma = {
+    holy_site = order_of_what
+}
+b_madrid = {
+    holy_site = order_of_what
+}
+b_westminster = {
+    holy_site = order_of_what
+}
+b_st_peters = {
+    holy_site = order_of_what
+}
+b_paris = {
+    holy_site = order_of_what
+}

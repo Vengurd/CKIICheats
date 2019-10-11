@@ -1,0 +1,64 @@
+decisions = {
+    become_lesser_cheat = { #First Phase
+        is_high_prio = yes
+        potential = {
+            NOT = { trait = lesser_cheat }
+            NOT = { trait = cheat }
+            NOT = { trait = greater_cheat }
+        }
+        effect = {
+            add_trait = lesser_cheat
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+    swap_lesser_cheat = {
+        is_high_prio = yes
+        potential = {
+            trait = lesser_cheat
+        }
+        effect = {
+            remove_trait = lesser_cheat
+            add_trait = cheat
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+    become_cheat = { #Second Phase
+        is_high_prio = yes
+        potential = {
+            NOT = { trait = lesser_cheat }
+            NOT = { trait = cheat }
+            NOT = { trait = greater_cheat }
+        }
+        effect = {
+            add_trait = what
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+    swap_cheat = {
+        is_high_prio = yes
+        potential = {
+            trait = cheat
+        }
+        effect = {
+            remove_trait = cheat
+            add_trait = greater_cheat
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+    become_greater_cheat = { #Third Phase
+        is_high_prio = yes
+        potential = {
+            NOT = { trait = lesser_cheat }
+            NOT = { trait = cheat }
+            NOT = { trait = greater_cheat }
+        }
+        effect = {
+            add_trait = greater_cheat
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

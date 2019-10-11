@@ -1,0 +1,25 @@
+city = {
+    cheat_city_treasury_1 = {
+        desc = cheat_retinue_desc
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        gold_cost = 0
+        build_time = 0
+        ai_creation_factor = 0
+        city_opinion = 100
+        tax_income = 100
+        max_tradeposts = 1
+    }
+    cheat_city_fort_1 = {
+        desc = cheat_retinue_desc
+        trigger = { 
+        FROM = { trait = cheat }
+        }
+        gold_cost = 0
+        build_time = 0
+        fort_level = 50
+        city_opinion = 100
+        ai_creation_factor = 0
+    }
+}
