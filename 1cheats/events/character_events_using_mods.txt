@@ -1,0 +1,82 @@
+namespace = charevt_using_mods
+
+character_event = {
+	id = charevt_using_mods.0001
+
+	is_triggered_only = yes
+	ai = no
+
+	title = EVTTITLE_charevt_using_mods_0001
+	desc = EVTDESC_charevt_using_mods_0001
+	picture = GFX_evt_castle_construction
+	border = GFX_event_normal_frame_economy
+
+	option = {
+		name = { text = EVTOPT_charevt_using_mods_yes }
+		set_global_flag = flag_using_mods_faiterials_buildings
+	}
+	option = {
+		name = { text = EVTOPT_charevt_using_mods_no }
+		clr_global_flag = flag_using_mods_faiterials_buildings
+	}
+}
+character_event = {
+	id = charevt_using_mods.0002
+
+	is_triggered_only = yes
+	ai = no
+
+	title = EVTTITLE_charevt_using_mods_0002
+	desc = EVTDESC_charevt_using_mods_0002
+	picture = GFX_evt_castle_construction
+	border = GFX_event_normal_frame_economy
+
+	option = {
+		name = { text = EVTOPT_charevt_using_mods_yes }
+		set_global_flag = flag_using_mods_new_buildings_and_effects
+	}
+	option = {
+		name = { text = EVTOPT_charevt_using_mods_no }
+		clr_global_flag = flag_using_mods_new_buildings_and_effects
+	}
+}
+character_event = {
+	id = charevt_using_mods.0003
+
+	is_triggered_only = yes
+	ai = no
+
+	title = EVTTITLE_charevt_using_mods_0003
+	desc = EVTDESC_charevt_using_mods_0003
+	picture = GFX_evt_castle_construction
+	border = GFX_event_normal_frame_economy
+
+	option = {
+		name = { text = EVTOPT_charevt_using_mods_yes }
+		set_global_flag = flag_using_mods_peachys_buildings
+	}
+	option = {
+		name = { text = EVTOPT_charevt_using_mods_no }
+		clr_global_flag = flag_using_mods_peachys_buildings
+	}
+}
+character_event = {
+	id = charevt_using_mods.0004
+
+	is_triggered_only = yes
+	ai = no
+
+	title = EVTTITLE_charevt_using_mods_0004
+	desc = EVTDESC_charevt_using_mods_0004
+	picture = GFX_evt_castle_construction
+	border = GFX_event_normal_frame_economy
+
+	option = {
+		name = { text = EVTOPT_charevt_using_mods_yes }
+		set_global_flag = flag_using_mods_your_personal_castle
+	}
+	option = {
+		name = { text = EVTOPT_charevt_using_mods_no }
+		clr_global_flag = flag_using_mods_your_personal_castle
+	}
+}

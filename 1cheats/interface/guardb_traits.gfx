@@ -1,0 +1,26 @@
+spriteTypes = {
+
+	
+	spriteType = {
+		name = "GFX_trait_knight"
+		texturefile = "gfx/traits/knight.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_guard"
+		texturefile = "gfx/traits/guard.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_oldguard"
+		texturefile = "gfx/traits/oldguard.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+}

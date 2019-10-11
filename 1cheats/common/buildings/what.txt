@@ -1,0 +1,1432 @@
+castle = {
+	what_feudal_treasury = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		tax_income = 100
+	}
+	what_feudal_walls = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		gold_cost = 0
+		build_time = 0
+		fort_level = 100
+		ai_creation_factor = 0
+	}
+
+##Army
+	what_retinue_castle_1 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_castle_2 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_1 }
+		upgrades_from = what_retinue_castle_1
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_castle_3 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_2 }
+		upgrades_from = what_retinue_castle_2
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_castle_4 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_3 }
+		upgrades_from = what_retinue_castle_3
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_castle_5 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_4 }
+		upgrades_from = what_retinue_castle_4
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_castle_6 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_5 }
+		upgrades_from = what_retinue_castle_5
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_castle_7 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_6 }
+		upgrades_from = what_retinue_castle_6
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_castle_8 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_7 }
+		upgrades_from = what_retinue_castle_7
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_castle_9 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_8 }
+		upgrades_from = what_retinue_castle_8
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_castle_10 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_9 }
+		upgrades_from = what_retinue_castle_9
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+##Navy
+	what_retinue_castle_galley_1 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_castle_galley_2 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_galley_1 }
+		upgrades_from = what_retinue_castle_galley_1
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_castle_galley_3 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_galley_2 }
+		upgrades_from = what_retinue_castle_galley_2
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_castle_galley_4 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_galley_3 }
+		upgrades_from = what_retinue_castle_galley_3
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_castle_galley_5 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_galley_4 }
+		upgrades_from = what_retinue_castle_galley_4
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_castle_galley_6 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_galley_5 }
+		upgrades_from = what_retinue_castle_galley_5
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_castle_galley_7 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_galley_6 }
+		upgrades_from = what_retinue_castle_galley_6
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_castle_galley_8 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_galley_7 }
+		upgrades_from = what_retinue_castle_galley_7
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_castle_galley_9 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_galley_8 }
+		upgrades_from = what_retinue_castle_galley_8
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_castle_galley_10 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_castle_galley_9 }
+		upgrades_from = what_retinue_castle_galley_9
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+}
+
+city = {
+	what_city_treasury = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		tax_income = 100
+	}	
+	what_city_walls = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		gold_cost = 0
+		build_time = 0
+		fort_level = 100
+		ai_creation_factor = 0
+	}
+##Army
+	what_retinue_city_1 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_city_2 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_1 }
+		upgrades_from = what_retinue_city_1
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_city_3 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_2 }
+		upgrades_from = what_retinue_city_2
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_city_4 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_3 }
+		upgrades_from = what_retinue_city_3
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_city_5 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_4 }
+		upgrades_from = what_retinue_city_4
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_city_6 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_5 }
+		upgrades_from = what_retinue_city_5
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_city_7 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_6 }
+		upgrades_from = what_retinue_city_6
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_city_8 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_7 }
+		upgrades_from = what_retinue_city_7
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_city_9 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_8 }
+		upgrades_from = what_retinue_city_8
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_city_10 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_9 }
+		upgrades_from = what_retinue_city_9
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+##Navy
+	what_retinue_city_galley_1 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_city_galley_2 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_galley_1 }
+		upgrades_from = what_retinue_city_galley_1
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_city_galley_3 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_galley_2 }
+		upgrades_from = what_retinue_city_galley_2
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_city_galley_4 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_galley_3 }
+		upgrades_from = what_retinue_city_galley_3
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_city_galley_5 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_galley_4 }
+		upgrades_from = what_retinue_city_galley_4
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_city_galley_6 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_galley_5 }
+		upgrades_from = what_retinue_city_galley_5
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_city_galley_7 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_galley_6 }
+		upgrades_from = what_retinue_city_galley_6
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_city_galley_8 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_galley_7 }
+		upgrades_from = what_retinue_city_galley_7
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_city_galley_9 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_galley_8 }
+		upgrades_from = what_retinue_city_galley_8
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+	what_retinue_city_galley_10 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_city_galley_9 }
+		upgrades_from = what_retinue_city_galley_9
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+	}
+}
+
+family_palace = {
+	what_retinue_merch_level_1 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		gold_cost = 0
+		build_time = 0
+		fort_level = 50
+		ai_creation_factor = 0
+		max_tradeposts = 500000
+		tax_income = 100
+		retinuesize = 5000
+		galleys = 500
+		port = yes
+	}
+	what_retinue_merch_level_2 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_merch_level_1 }
+		upgrades_from = what_retinue_merch_level_1
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_merch_level_3 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_merch_level_2 }
+		upgrades_from = what_retinue_merch_level_2
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_merch_level_4 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_merch_level_3 }
+		upgrades_from = what_retinue_merch_level_3
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_merch_level_5 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_merch_level_4 }
+		upgrades_from = what_retinue_merch_level_4
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_merch_level_6 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_merch_level_5 }
+		upgrades_from = what_retinue_merch_level_5
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_merch_level_7 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_merch_level_6 }
+		upgrades_from = what_retinue_merch_level_6
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_merch_level_8 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_merch_level_7 }
+		upgrades_from = what_retinue_merch_level_7
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_merch_level_9 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_merch_level_8 }
+		upgrades_from = what_retinue_merch_level_8
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+	what_retinue_merch_level_10 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_merch_level_9 }
+		upgrades_from = what_retinue_merch_level_9
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		retinuesize = 5000
+	}
+}
+
+tribal = {
+	what_trib_treasury = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		tax_income = 100
+		
+		convert_to_castle = what_feudal_treasury
+		convert_to_city = what_city_treasury
+	}	
+	what_trib_walls = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		gold_cost = 0
+		build_time = 0
+		fort_level = 100
+		ai_creation_factor = 0
+		
+		convert_to_castle = what_feudal_walls
+		convert_to_city = what_city_walls
+	}
+##Army
+	what_retinue_trib_level_1 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		gold_cost = 0
+		build_time = 0
+		fort_level = 50
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_1
+		convert_to_city = what_retinue_city_1
+		retinuesize = 5000
+	}
+	what_retinue_trib_level_2 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_level_1 }
+		upgrades_from = what_retinue_trib_level_1
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_2
+		convert_to_city = what_retinue_city_2
+		retinuesize = 5000
+	}
+	what_retinue_trib_level_3 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_level_2 }
+		upgrades_from = what_retinue_trib_level_2
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_3
+		convert_to_city = what_retinue_city_3
+		retinuesize = 5000
+	}
+	what_retinue_trib_level_4 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_level_3 }
+		upgrades_from = what_retinue_trib_level_3
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_4
+		convert_to_city = what_retinue_city_4
+		retinuesize = 5000
+	}
+	what_retinue_trib_level_5 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_level_4 }
+		upgrades_from = what_retinue_trib_level_4
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_5
+		convert_to_city = what_retinue_city_5
+		retinuesize = 5000
+	}
+	what_retinue_trib_level_6 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_level_5 }
+		upgrades_from = what_retinue_trib_level_5
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_6
+		convert_to_city = what_retinue_city_6
+		retinuesize = 5000
+	}
+	what_retinue_trib_level_7 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_level_6 }
+		upgrades_from = what_retinue_trib_level_6
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_7
+		convert_to_city = what_retinue_city_7
+		retinuesize = 5000
+	}
+	what_retinue_trib_level_8 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_level_7 }
+		upgrades_from = what_retinue_trib_level_7
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_8
+		convert_to_city = what_retinue_city_8
+		retinuesize = 5000
+	}
+	what_retinue_trib_level_9 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_level_8 }
+		upgrades_from = what_retinue_trib_level_8
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_9
+		convert_to_city = what_retinue_city_9
+		retinuesize = 5000
+	}
+	what_retinue_trib_level_10 = {
+		desc = what_retinue_desc
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_level_9 }
+		upgrades_from = what_retinue_trib_level_9
+		gold_cost = 0
+		build_time = 0
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_10
+		convert_to_city = what_retinue_city_10
+		retinuesize = 5000
+	}
+##Navy
+	what_retinue_trib_galley_1 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_galley_1
+	}
+	what_retinue_trib_galley_2 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_galley_1 }
+		upgrades_from = what_retinue_trib_galley_1
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_galley_2
+	}
+	what_retinue_trib_galley_3 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_galley_2 }
+		upgrades_from = what_retinue_trib_galley_2
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_galley_3
+	}
+	what_retinue_trib_galley_4 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_galley_3 }
+		upgrades_from = what_retinue_trib_galley_3
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_galley_4
+	}
+	what_retinue_trib_galley_5 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_galley_4 }
+		upgrades_from = what_retinue_trib_galley_4
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_galley_5
+	}
+	what_retinue_trib_galley_6 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_galley_5 }
+		upgrades_from = what_retinue_trib_galley_5
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_galley_6
+	}
+	what_retinue_trib_galley_7 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_galley_6 }
+		upgrades_from = what_retinue_trib_galley_6
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_galley_7
+	}
+	what_retinue_trib_galley_8 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_galley_7 }
+		upgrades_from = what_retinue_trib_galley_7
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_galley_8
+	}
+	what_retinue_trib_galley_9 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_galley_8 }
+		upgrades_from = what_retinue_trib_galley_8
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_galley_9
+	}
+	what_retinue_trib_galley_10 = {
+		desc = what_retinue_desc
+		port = yes
+		trigger = {
+            FROM = {
+            	OR = {
+                    trait = lesser_what
+                    trait = what
+                    trait = greater_what
+                }
+            } 
+        }
+		prerequisites = { what_retinue_trib_galley_9 }
+		upgrades_from = what_retinue_trib_galley_9
+		gold_cost = 0
+		build_time = 0
+		galleys = 100
+		ai_creation_factor = 0
+		convert_to_castle = what_retinue_castle_galley_10
+	}
+}

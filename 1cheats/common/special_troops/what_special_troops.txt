@@ -1,0 +1,11 @@
+what_soldiers = {
+	morale = 50
+	maintenance = 0
+	phase_skirmish_attack = 50
+    phase_skirmish_defense = 50
+	phase_melee_attack = 50
+	phase_pursue_attack = 50
+	phase_melee_defense = 50
+	phase_pursue_defense = 50
+	base_type = heavy_infantry
+}

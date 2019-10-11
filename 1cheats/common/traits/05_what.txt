@@ -1,0 +1,301 @@
+lesser_what = {
+    health = 50
+    martial = 50
+    diplomacy = 50
+    stewardship = 50
+    learning = 50
+    intrigue = 50
+    fertility = 50
+
+    birth = 0
+    inherit_chance = 0
+    random = no
+    ruler_designer_cost = -50
+    threat_decay_speed = 50
+
+    clan_sentiment = 50
+    liege_opinion = 50
+    vassal_opinion = 50
+    general_opinion = 50
+    sex_appeal_opinion = 50
+    global_revolt_risk = -50
+
+    monthly_character_wealth = 50
+    monthly_character_piety = 50
+    monthly_character_prestige = 50
+
+    levy_size = 50
+    levy_reinforce_rate = 50
+    demesne_size = 50
+    build_time_modifier = -1
+    build_cost_modifier = -0.80
+
+    combat_rating = 5
+    max_manpower_mult = 5
+    leadership_traits = 50
+    command_modifier = {
+        terrain = plains
+        terrain = farmlands
+        terrain = steppe
+        terrain = hills
+        terrain = forest
+        terrain = mountain
+        terrain = desert
+        terrain = jungle
+        
+        cavalry = 5
+        center = 5
+        damage = 5
+        defence = 5
+        flank = 5
+        heavy_infantry = 5
+        light_infantry = 5
+        morale_defence = 5
+        morale_offence = 5
+        narrow_flank = 5
+        pursue = 5
+        retreat = 5
+        siege = 5
+        speed = 5
+        
+    }
+
+}
+what = {
+    health = 100
+    martial = 100
+    diplomacy = 100
+    stewardship = 100
+    learning = 100
+    intrigue = 100
+    fertility = 100
+
+    birth = 0
+    inherit_chance = 0
+    random = no
+    ruler_designer_cost = -100
+    threat_decay_speed = 100
+
+    clan_sentiment = 100
+    liege_opinion = 100
+    vassal_opinion = 100
+    general_opinion = 100
+    sex_appeal_opinion = 100
+    global_revolt_risk = -100
+
+    monthly_character_wealth = 100
+    monthly_character_piety = 100
+    monthly_character_prestige = 100
+
+    levy_size = 100
+    levy_reinforce_rate = 100
+    demesne_size = 100
+    build_time_modifier = -1
+    build_cost_modifier = -0.80
+
+    combat_rating = 10
+    max_manpower_mult = 10
+    leadership_traits = 100
+    command_modifier = {
+        terrain = plains
+        terrain = farmlands
+        terrain = steppe
+        terrain = hills
+        terrain = forest
+        terrain = mountain
+        terrain = desert
+        terrain = jungle
+
+        cavalry = 10
+        center = 10
+        damage = 10
+        defence = 10
+        flank = 10
+        heavy_infantry = 10
+        light_infantry = 10
+        morale_defence = 10
+        morale_offence = 10
+        narrow_flank = 10
+        pursue = 10
+        retreat = 10
+        siege = 10
+        speed = 10
+    }
+
+
+}
+greater_what = {
+    health = 200
+    martial = 200
+    diplomacy = 200
+    stewardship = 200
+    learning = 200
+    intrigue = 200
+    fertility = 200
+
+    birth = 0
+    inherit_chance = 0
+    random = no
+    ruler_designer_cost = -200
+    
+    threat_decay_speed = 200
+
+    clan_sentiment = 200
+    liege_opinion = 200
+    vassal_opinion = 200
+    general_opinion = 200
+    sex_appeal_opinion = 200
+    global_revolt_risk = -200
+
+    monthly_character_wealth = 200
+    monthly_character_piety = 200
+    monthly_character_prestige = 200
+
+    levy_size = 200
+    levy_reinforce_rate = 200
+    demesne_size = 200
+    build_time_modifier = -1
+    build_cost_modifier = -0.80
+    
+    combat_rating = 200
+    max_manpower_mult = 200
+    leadership_traits = 200
+    command_modifier = {
+        terrain = plains
+        terrain = farmlands
+        terrain = steppe
+        terrain = hills
+        terrain = forest
+        terrain = mountain
+        terrain = desert
+        terrain = jungle
+
+        cavalry = 20
+        center = 20
+        damage = 20
+        defence = 20
+        flank = 20
+        heavy_infantry = 20
+        light_infantry = 20
+        morale_defence = 20
+        morale_offence = 20
+        narrow_flank = 20
+        pursue = 20
+        retreat = 20
+        siege = 20
+        speed = 20
+    }
+
+}
+whatling = {
+    health = 20
+    martial = 20
+    diplomacy = 20
+    stewardship = 20
+    learning = 20
+    intrigue = 20
+    fertility = 20
+
+    birth = 0
+    inherit_chance = 0
+    random = no
+    ruler_designer_cost = -20
+    threat_decay_speed = 20
+
+    clan_sentiment = 20
+    liege_opinion = 20
+    vassal_opinion = 20
+    general_opinion = 20
+    sex_appeal_opinion = 20
+    global_revolt_risk = -20
+
+    monthly_character_wealth = 20
+    monthly_character_piety = 20
+    monthly_character_prestige = 20
+
+    levy_size = 20
+    levy_reinforce_rate = 20
+    demesne_size = 20
+    build_time_modifier = -1
+    build_cost_modifier = -0.80
+
+    combat_rating = 20
+    max_manpower_mult = 20
+    leadership_traits = 20
+    command_modifier = {
+        terrain = plains
+        terrain = farmlands
+        terrain = steppe
+        terrain = hills
+        terrain = forest
+        terrain = mountain
+        terrain = desert
+        terrain = jungle
+
+        cavalry = 2
+        center = 2
+        damage = 2
+        defence = 2
+        flank = 2
+        heavy_infantry = 2
+        light_infantry = 2
+        morale_defence = 2
+        morale_offence = 2
+        narrow_flank = 2
+        pursue = 2
+        retreat = 2
+        siege = 2
+        speed = 2
+    }
+
+
+}
+
+what_family = {
+    agnatic = yes
+    enatic = yes
+
+    health = 5
+    martial = 5
+    diplomacy = 5
+    stewardship = 5
+    learning = 5
+    intrigue = 5
+    fertility = 5
+
+    clan_sentiment = 5
+    liege_opinion = 5
+    vassal_opinion = 5
+    general_opinion = 5
+    sex_appeal_opinion = 5
+    monthly_character_wealth = 5
+    monthly_character_piety = 5
+    monthly_character_prestige = 5
+}
+what_loyal = {
+    
+    martial = 1
+
+    liege_opinion = 300
+}
+what_founder = {
+    agnatic = yes
+    enatic = yes
+
+    health = 5
+    martial = 5
+    diplomacy = 5
+    stewardship = 5
+    learning = 5
+    intrigue = 5
+    fertility = 5
+
+    clan_sentiment = 5
+    liege_opinion = 5
+    vassal_opinion = 5
+    general_opinion = 5
+    sex_appeal_opinion = 5
+    monthly_character_wealth = 5
+    monthly_character_piety = 5
+    monthly_character_prestige = 5
+}

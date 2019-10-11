@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+	name = "GFX_trait_what"
+	texturefile = "gfx/traits/what.dds"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_lesser_what"
+	texturefile = "gfx/traits/lesser_what.dds"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_greater_what"
+	texturefile = "gfx/traits/greater_what.dds"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_whatling"
+	texturefile = "gfx/traits/whatling.dds"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

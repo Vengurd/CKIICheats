@@ -1,0 +1,375 @@
+###BUILDINGS
+##Castle
+what_feudal_treasury;Whatopian Treasury;;;;;;;;;x
+what_feudal_walls;Whatopian Walls;;;;;;;;;x
+what_feudal_plaza;Whatopian Courtyard;;;;;;;;;x
+what_feudal_chapel;Whatopian Chapel;;;;;;;;;x
+#Army
+what_retinue_castle_1;Whatopia Level 1;;;;;;;;;x
+what_retinue_castle_2;Whatopia Level 2;;;;;;;;;x
+what_retinue_castle_3;Whatopia Level 3;;;;;;;;;x
+what_retinue_castle_4;Whatopia Level 4;;;;;;;;;x
+what_retinue_castle_5;Whatopia Level 5;;;;;;;;;x
+what_retinue_castle_6;Whatopia Level 6;;;;;;;;;x
+what_retinue_castle_7;Whatopia Level 7;;;;;;;;;x
+what_retinue_castle_8;Whatopia Level 8;;;;;;;;;x
+what_retinue_castle_9;Whatopia Level 9;;;;;;;;;x
+what_retinue_castle_10;Whatopia Level 10;;;;;;;;;x
+#Navy
+what_retinue_castle_galley_1;Whatopian Docks Level 1;;;;;;;;;x
+what_retinue_castle_galley_2;Whatopian Docks Level 2;;;;;;;;;x
+what_retinue_castle_galley_3;Whatopian Docks Level 3;;;;;;;;;x
+what_retinue_castle_galley_4;Whatopian Docks Level 4;;;;;;;;;x
+what_retinue_castle_galley_5;Whatopian Docks Level 5;;;;;;;;;x
+what_retinue_castle_galley_6;Whatopian Docks Level 6;;;;;;;;;x
+what_retinue_castle_galley_7;Whatopian Docks Level 7;;;;;;;;;x
+what_retinue_castle_galley_8;Whatopian Docks Level 8;;;;;;;;;x
+what_retinue_castle_galley_9;Whatopian Docks Level 9;;;;;;;;;x
+what_retinue_castle_galley_10;Whatopian Docks Level 10;;;;;;;;;x
+##City
+what_city_treasury;Whatopian Treasury;;;;;;;;;x
+what_city_walls;Whatopian Walls;;;;;;;;;x
+#Army
+what_retinue_city_1;Whatopia Level 1;;;;;;;;;x
+what_retinue_city_2;Whatopia Level 2;;;;;;;;;x
+what_retinue_city_3;Whatopia Level 3;;;;;;;;;x
+what_retinue_city_4;Whatopia Level 4;;;;;;;;;x
+what_retinue_city_5;Whatopia Level 5;;;;;;;;;x
+what_retinue_city_6;Whatopia Level 6;;;;;;;;;x
+what_retinue_city_7;Whatopia Level 7;;;;;;;;;x
+what_retinue_city_8;Whatopia Level 8;;;;;;;;;x
+what_retinue_city_9;Whatopia Level 9;;;;;;;;;x
+what_retinue_city_10;Whatopia Level 10;;;;;;;;;x
+#Navy
+what_retinue_city_galley_1;Whatopian Docks Level 1;;;;;;;;;x
+what_retinue_city_galley_2;Whatopian Docks Level 2;;;;;;;;;x
+what_retinue_city_galley_3;Whatopian Docks Level 3;;;;;;;;;x
+what_retinue_city_galley_4;Whatopian Docks Level 4;;;;;;;;;x
+what_retinue_city_galley_5;Whatopian Docks Level 5;;;;;;;;;x
+what_retinue_city_galley_6;Whatopian Docks Level 6;;;;;;;;;x
+what_retinue_city_galley_7;Whatopian Docks Level 7;;;;;;;;;x
+what_retinue_city_galley_8;Whatopian Docks Level 8;;;;;;;;;x
+what_retinue_city_galley_9;Whatopian Docks Level 9;;;;;;;;;x
+what_retinue_city_galley_10;Whatopian Docks Level 10;;;;;;;;;x
+##Family Palace
+what_retinue_merch_level_1;Whatopia Level 1;;;;;;;;;x
+what_retinue_merch_level_2;Whatopia Level 2;;;;;;;;;x
+what_retinue_merch_level_3;Whatopia Level 3;;;;;;;;;x
+what_retinue_merch_level_4;Whatopia Level 4;;;;;;;;;x
+what_retinue_merch_level_5;Whatopia Level 5;;;;;;;;;x
+what_retinue_merch_level_6;Whatopia Level 6;;;;;;;;;x
+what_retinue_merch_level_7;Whatopia Level 7;;;;;;;;;x
+what_retinue_merch_level_8;Whatopia Level 8;;;;;;;;;x
+what_retinue_merch_level_9;Whatopia Level 9;;;;;;;;;x
+what_retinue_merch_level_10;Whatopia Level 10;;;;;;;;;x
+##Tribe
+what_trib_treasury;Whatopian Treasury;;;;;;;;;x
+what_trib_walls;Whatopian Walls;;;;;;;;;x
+#Army
+what_retinue_trib_level_1;Whatopia Level 1;;;;;;;;;x
+what_retinue_trib_level_2;Whatopia Level 2;;;;;;;;;x
+what_retinue_trib_level_3;Whatopia Level 3;;;;;;;;;x
+what_retinue_trib_level_4;Whatopia Level 4;;;;;;;;;x
+what_retinue_trib_level_5;Whatopia Level 5;;;;;;;;;x
+what_retinue_trib_level_6;Whatopia Level 6;;;;;;;;;x
+what_retinue_trib_level_7;Whatopia Level 7;;;;;;;;;x
+what_retinue_trib_level_8;Whatopia Level 8;;;;;;;;;x
+what_retinue_trib_level_9;Whatopia Level 9;;;;;;;;;x
+what_retinue_trib_level_10;Whatopia Level 10;;;;;;;;;x
+#Navy
+what_retinue_trib_galley_1;Whatopian Docks Level 1;;;;;;;;;x
+what_retinue_trib_galley_2;Whatopian Docks Level 2;;;;;;;;;x
+what_retinue_trib_galley_3;Whatopian Docks Level 3;;;;;;;;;x
+what_retinue_trib_galley_4;Whatopian Docks Level 4;;;;;;;;;x
+what_retinue_trib_galley_5;Whatopian Docks Level 5;;;;;;;;;x
+what_retinue_trib_galley_6;Whatopian Docks Level 6;;;;;;;;;x
+what_retinue_trib_galley_7;Whatopian Docks Level 7;;;;;;;;;x
+what_retinue_trib_galley_8;Whatopian Docks Level 8;;;;;;;;;x
+what_retinue_trib_galley_9;Whatopian Docks Level 9;;;;;;;;;x
+what_retinue_trib_galley_10;Whatopian Docks Level 10;;;;;;;;;x
+
+
+##Causus Belli War
+CB_NAME_FULL_INVASION;Full Invasion;;;;;;;;;x
+what_invasion_desc;What now?;;;;;;;;;x
+CB_NAME_FULL_CONQUEST;Full Invasion;;;;;;;;;x
+what_conquest_desc;The Whole thing!;;;;;;;;;x
+
+
+##Decisions
+#what_enable;Enable what?;;;;;;;;;;;x
+#what_enable_desc;Enable What;;;;;;;;;;;x
+#what_disable;Disabled what?;;;;;;;;;;;x
+#what_disable_desc;Disabled What;;;;;;;;;;;x
+become_lesser_what;Become Lesser What;;;;;;;;;x
+become_lesser_what_desc;You've heard from courtiers the ways of cheating. Sounds fun, but let's not go too far.;;;;;;;;;x
+become_what;Become What;;;;;;;;;x
+become_what_desc;You've discovered more of the ways of cheating.;;;;;;;;;x
+become_greater_what;Become Greater What;;;;;;;;;x
+become_greater_what_desc;You've ascended to the ways of cheating.;;;;;;;;;x
+found_what;Recognize Family Line;;;;;;;;;x
+found_what_desc;Your distant decendants will mark you as their founding ancestor.;;;;;;;;;x
+#Decisions to get things
+what_cash;Conjure Gold;;;;;;;;;;;x
+what_cash_desc;Using my cheatery, I can conjure up some gold.;;;;;;;;;;;x
+what_prestige;Conjure prestige;;;;;;;;;;;x
+what_prestige_desc;Using my cheatery, I can conjure up some prestige.;;;;;;;;;;;x
+what_piety;Conjure Piety;;;;;;;;;;;x
+what_piety_desc;Using my cheatery, I can conjure up some piety.;;;;;;;;;;;x
+what_tech;Conjure Technology;;;;;;;;;;;x
+what_tech_desc;Using my cheatery, I can conjure up some technology.;;;;;;;;;;;x
+#Decisions to assimilate
+what_religious_conversion;Religious Conversion;;;;;;;;;x
+what_religious_conversion_desc;Using my extensive influence and power, I can convince local populaces to convert to the one and true faith.;;;;;;;;;x
+what_culture_conversion;Culture Assimilation;;;;;;;;;x
+what_culture_conversion_desc;Using my extensive influence and power, I can convince local populaces to assimilate into my culture.;;;;;;;;;x
+what_ethnicity_conversion;Ethnic Conversion;;;;;;;;;x
+what_ethnicity_conversion_desc;Using my extensive influence and power, I can convince local populaces to be more like me.;;;;;;;;;x
+#Spawn Decisions
+add_male_cousin;Male Cousin;;;;;;;;;x
+add_male_cousin_desc;Spawn a Cousin;;;;;;;;;x
+add_female_cousin;Female Cousin;;;;;;;;;x
+add_female_cousin_desc;Spawn a Cousin;;;;;;;;;x
+#Provincial Decisions
+what_remove_bad_modifiers_from_provinces;Remove Bad Province Modifiers;;;;;;;;;x
+what_remove_bad_modifiers_from_provinces_desc;After you conquer those provinces, you get those pesky modifiers on administration. Remove them.;;;;;;;;;x
+revoke_what;Revoke All Vassals;;;;;;;;;x
+revoke_what_desc;Using my extensive influence and power, I can convince my landed vassals to repeal ownership of their lands.;;;;;;;;;x
+#More Decisions
+what_religious_authority;Raise Religious Authority;;;;;;;;;x
+what_religious_authority_desc;Using my extensive influence and power, I can raise my religious authority to it's highest level.;;;;;;;;;x
+what_independent;Become Independent;;;;;;;;;x
+what_independent_desc;I serve no lord!;;;;;;;;;x
+what_feudal;Get Feudal;;;;;;;;;x
+what_feudal_desc;Lets. Get. Feudal.;;;;;;;;;x
+what_threat_level;Lower Infamy;;;;;;;;;x
+what_threat_level_desc;I am no threat.;;;;;;;;;x
+what_all_courtiers;Kill Couriers;;;;;;;;;x
+what_all_courtiers_desc; Kill them! Kill them all!;;;;;;;;;x
+#swap_lesser_what;Become What;;;;;;;;;x
+#swap_lesser_what_desc;After accumulating a mass of gold and prestige, you decide that cheating would be the best. Right? I mean, you've already done it with the weaker version, why not become the full potential of your powers?;;;;;;;;;x
+swap_lesser_what;Upgrade to What;;;;;;;;;x
+swap_lesser_what_desc;Using my special administration, I can upgrade from this petty form of cheating to a greater, better form.;;;;;;;;;x
+what_not_in_multiplayer;Cannot be used in multiplayer.;Cannot be used in multiplayer.;Cannot be used in multiplayer.;;;;;;;;;x
+
+##Decisions Targeted
+what_kill;Kill;;;;;;;;;x
+what_kill_desc;You said what about my mum?;;;;;;;;;x
+what_heal;Heal Self;;;;;;;;;x
+what_heal_desc;Wipe yourself off, you're bleeding.;;;;;;;;;x
+what_genes;Improve Own Genes;;;;;;;;;x
+what_genes_desc;I don't have a harelip!;;;;;;;;;x
+what_impregnate;Make Pregnant;;;;;;;;;x
+what_impregnate_desc;Do not tell me what is impossible.;;;;;;;;;x
+what_imprison;Imprison;;;;;;;;;x
+what_imprison_desc;My agents will act now.;;;;;;;;;x
+legitimize_what;Legitimize;;;;;;;;;x
+legitimize_what_desc;Yo Lmao Legit.;;;;;;;;;x
+what_religion;Convert To My Religion;;;;;;;;;x
+what_religion_desc;My god better than your god.;;;;;;;;;x
+what_culture;Convert To My Culture;;;;;;;;;x
+what_culture_desc;My culture is better than your culture.;;;;;;;;;x
+what_ethnicity;Convert To My Ethnicity;;;;;;;;;x
+what_ethnicity_desc;You smell funny, I don't.;;;;;;;;;x
+increase_stats;Increase Stats;;;;;;;;;x
+increase_stats_desc;What does this button do?;;;;;;;;;x
+decrease_stats;Decrease Stats;;;;;;;;;x
+decrease_stats_desc;Ignorance is bliss.;;;;;;;;;x
+make_whatling;Make a Whatling;;;;;;;;;x
+make_whatling_desc;Give your Patronage and Support to this promising person;;;;;;;;;x
+unmake_whatling;Unmake Whatling;;;;;;;;;x
+unmake_whatling_desc; Revoke your Patronage and Support from this useless thing;;;;;;;;;x
+self_stats;Increase MY Stats;;;;;;;;;x
+self_stats_desc;I must be betterer,;;;;;;;;;x
+self_stats2;Descrease MY Stats;;;;;;;;;x
+self_stats2_desc;I don't want to know anymore.;;;;;;;;;x
+abdicate;Abdicate To Me;;;;;;;;;x
+abdicate_desc;They can trust me...Right?;;;;;;;;;x
+vassalize;Vassalize Them;;;;;;;;;x
+vassalize_desc;Let me make all the important decisions.;;;;;;;;;x
+heal_them;Heal Them;;;;;;;;;x
+heal_them_desc;We need them at their best.;;;;;;;;;x
+move_them;Move Them Here;;;;;;;;;;;;;x
+move_them_desc;Force this individual to join your court.;;;;;;;;;;;;;xkuru_ec_set_extraordinary_builder;Extraordinary Builder;;;;;;;;;;;;;x
+set_extraordinary_builder_desc;Allows [Root.GetFullName] to build with extraordinary speed.;;;;;;;;;;;;;x
+remove_extraordinary_builder;Normal Builder;;;;;;;;;;;;;x
+remove_extraordinary_builder_desc;Makes [Root.GetFullName] build at normal speed.;;;;;;;;;;;;;x
+set_extraordinary_plotter;Extraordinary Plotter;;;;;;;;;;;;;x
+set_extraordinary_plotter_desc;Makes [Root.GetFullName] a genius when it comes to plotting.;;;;;;;;;;;;;x
+remove_extraordinary_plotter;Normal Plotter;;;;;;;;;;;;;x
+remove_extraordinary_plotter_desc;Makes [Root.GetFullName] plot at normal capacity.;;;;;;;;;;;;;x
+set_quick_reinforcements;Quick Reinforcements;;;;;;;;;;;;;x
+set_quick_reinforcements_desc;Greatly enhances the reinforcement speed for the armies of [Root.GetFullName].;;;;;;;;;;;;;x
+remove_quick_reinforcements;Normal Reinforcements;;;;;;;;;;;;;x
+remove_quick_reinforcements_desc;Normalizes the reinforcement speed for the armies of [Root.GetFullName].;;;;;;;;;;;;;x
+remove_claims_on_me_all;Remove Claims on Me;;;;;;;;;;;;;x
+remove_claims_on_me_all_desc;Remove all claims against titles held or controlled by [From.GetFullName].;;;;;;;;;;;;;x
+remove_claims_on_me;Remove Claims on Me;;;;;;;;;;;;;x
+remove_claims_on_me_desc;Remove all claims against titles held or controlled by [From.GetFullName].;;;;;;;;;;;;;x
+remove_all_claims;Remove All Claims;;;;;;;;;;;;;x
+remove_all_claims_desc;Remove all claims from [Root.GetFullName].;;;;;;;;;;;;;x
+
+##Decisions Settlements
+add_settlement;Add Settlement;;;;;;;;;;;;;x
+add_settlement_desc;Add a constructible settlement to [Root.Location.GetName].;;;;;;;;;;;;;x
+upgrade_castle;Upgrade Castle;;;;;;;;;x
+upgrade_castle_desc;Upgrade Castle;;;;;;;;;x
+upgrade_city;Upgrade City;;;;;;;;;x
+upgrade_city_desc;Upgrade City;;;;;;;;;x
+upgrade_temple;Upgrade Temple;;;;;;;;;x
+upgrade_temple_desc;Upgrade Temple;;;;;;;;;x
+upgrade_tribal;Upgrade Tribe;;;;;;;;;x
+upgrade_tribal_desc;Upgrade Tribe;;;;;;;;;x
+upgrade_hospital;Build/Upgrade Hospital;;;;;;;;;;;;;x
+upgrade_hospital_desc;Build and upgrade a hospital in this province.;;;;;;;;;;;;;x
+upgrade_fort;Upgrade Fort;;;;;;;;;;;;;x
+upgrade_fort_desc;Upgrade the fort in this province.;;;;;;;;;;;;;x
+upgrade_trade_post;Build/Upgrade Trade Post;;;;;;;;;;;;;x
+upgrade_trade_post_desc;Build and upgrade a trade post in this province.;;;;;;;;;;;;;x
+invite_a_local;Invite a local;;;;Invitar a un lugareño;;;;;;;;;x
+invite_a_local_desc;Invite a local from these lands who belongs to [Root.Location.Culture.GetName] culture and follows [Root.Location.Religion.GetName] religion.;;;;Invitar a un lugareño de estas tierras que se identifique con la cultura [Root.Location.Culture.GetName] y siga la religión [Root.Location.Religion.GetName].;;;;;;;;;x
+convert_castle;Convert To Castle;;;;;;;;;x
+convert_city;Convert To City;;;;;;;;;x
+convert_temple;Convert To Temple;;;;;;;;;x
+destroy_what;Destroy Holding;;;;;;;;;x
+destroy_what_desc;Take it down.;;;;;;;;;x
+upgrade_family_palace;Upgrade Family Palace;;;;;;;;;;;;;x
+upgrade_family_palace_desc;Upgrades the family palace for your patrician family.;;;;;;;;;;;;;x
+
+destroy_hospital;Destroy Hospital;;;;;;;;;;;;;x
+destroy_hospital_desc;Destroy the hospital in this province.;;;;;;;;;;;;;x
+destroy_fort;Destroy Fort;;;;;;;;;;;;;x
+destroy_fort_desc;Destroy the fort in this province.;;;;;;;;;;;;;x
+destroy_trade_post;Destroy Trade Post;;;;;;;;;;;;;x
+destroy_trade_post_desc;Destroy the trade post in this province.;;;;;;;;;;;;;x
+#upgrade_holding;Upgrade Holding;;;;;;;;;;;;;x
+#upgrade_holding_desc;Upgrade this holding with all supported buildings.;;;;;;;;;;;;;x
+
+##Decisions Titles
+add_claim;Claim TItle;;;;;;;;;x
+add_claim_desc;I wants it.;;;;;;;;;x
+take_title;Take Title;;;;;;;;;x
+take_title_desc;Whats yours is mine.;;;;;;;;;x
+abolish_what;Abolish Title;;;;;;;;;;;;;x
+abolish_what_desc;Abolish the title [This.GetFullName].;;;;;;;;;;;;;x
+make_agnatic;Agnatic;;;;;;;;;x
+make_agnatic_desc;Male Only;;;;;;;;;x
+make_cognatic;Agnatic Cognatic;;;;;;;;;x
+make_cognatic_desc;Female if no suitible Male;;;;;;;;;x
+make_true_cognatic;Absolute Cognatic;;;;;;;;;x
+make_true_cognatic_desc;Both/Either;;;;;;;;;x
+make_enatic_cognatic;Enatic Cognatic;;;;;;;;;x
+make_enatic_cognatic_desc;Male if no suitible Female;;;;;;;;;x
+make_enatic;Enatic;;;;;;;;;x
+make_enatic_desc;Female Only;;;;;;;;;x
+make_gavelkind;Gavelkind;;;;;;;;;x
+make_gavelkind_desc;Titles Split between Direct Decendents;;;;;;;;;x
+make_elective_gavelkind;Elective Gavelkind;;;;;;;;;x
+make_elective_gavelkind_desc;Vote which Titles Split between Direct Decendents;;;;;;;;;x
+make_elective;Feudal Elective;;;;;;;;;x
+make_elective_desc;Anyone Can Win;;;;;;;;;x
+make_primogeniture;Primogeniture;;;;;;;;;x
+make_primogeniture_desc;Eldest Direct Decendent Inherits;;;;;;;;;x
+make_ultimogeniture;Ultimogeniture;;;;;;;;;x
+make_ultimogeniture_desc; Youngest Direct Decendent;;;;;;;;;x
+make_seniority;Seniority;;;;;;;;;x
+make_seniority_desc;Eldest Dynastic Member;;;;;;;;;x
+make_open;Open Succession;;;;;;;;;x
+make_open_desc;Decendents with best Titles win;;;;;;;;;x
+make_tanistry;Tanistry;;;;;;;;;x
+make_tanistry_desc;Dynastic Elective;;;;;;;;;x
+make_elder;Eldership;;;;;;;;;x
+make_elder_desc;Six Elders decide the course of rulership;;;;;;;;;x
+what_independence;Grant Independence;;;;;;;;;x
+what_independence;Instantly grants independence;;;;;;;;;x
+
+
+##EVENTS
+#EVTWHATIMMORTALDESC;I feel strength in me. I have not grown old. I count the days of my birth, but it does not matter.;;;;;;;;;;;x
+#EVTOPTIMMORTAL;I am an immortal!;;;;;;;;;;;x
+#WHATIMMORTALITYEVENT1TITLE;The Elixir;;;;;;;;;x
+#WHATIMMORTALITYEVENT1DESC;As you were in your court reigning, a rather shifty and dirty man holding a vial of cyan blue elixir approaches your throne. You believe the man to be a peasant, although from the clothe of him he might be a chemist. A madman at that. He squabbles on and on to you about the magical powers of the elixir, nearly dropping it thrice. He says the potion can give you an endless life.... but also could end it. He offers it for a price, but it seems relatively generous for such a big chance. You are hesitant of choice, but it could be benefiting.;;;;;;;;;x
+#WHATIMMORTALITYEVENT1OPT1;Give me the vial!;;;;;;;;;x
+#WHATIMMORTALITYEVENT1OPT2;It could kill me? Are you insane!?;;;;;;;;;x
+#WHATIMMORTALITYEVENT1OPT3;Send a warning and burn the witch!;;;;;;;;;x
+#EVTOPIMMORTAL;I am immortal!;;;;;;;;;xEVTOPT_kuru_ec_charevt_using_mods_yes;Yes!;;;;;;;;;;;;;x
+EVTOPT_charevt_using_mods_yes_desc;Other decisions will take this modification into account.;;;;;;;;;;;;;x
+EVTOPT_charevt_using_mods_no;No.;;;;;;;;;;;;;x
+EVTOPT_charevt_using_mods_no_desc;Other decisions will ignore this modification.;;;;;;;;;;;;;x
+EVTTITLE_charevt_using_mods_0001;Faiterial's Buildings Mod;;;;;;;;;;;;;x
+EVTDESC_charevt_using_mods_0001;Is the realm using the Faiterial's Buildings Mod?;;;;;;;;;;;;;x
+EVTTITLE_charevt_using_mods_0002;New Buildings and Effects Mod;;;;;;;;;;;;;x
+EVTDESC_charevt_using_mods_0002;Is the realm using the New Buildings and Effects Mod?;;;;;;;;;;;;;x
+EVTTITLE_charevt_using_mods_0003;Peachy's Buildings Mod;;;;;;;;;;;;;x
+EVTDESC_charevt_using_mods_0003;Is the realm using the Peachy's Buildings Mod?;;;;;;;;;;;;;x
+EVTTITLE_charevt_using_mods_0004;Your Personal Castle Mod;;;;;;;;;;;;;x
+EVTDESC_charevt_using_mods_0004;Is the realm using the Your Personal Castle Mod?;;;;;;;;;;;;;x
+
+
+# ###############
+# event_modifiers
+# ###############
+extraordinary_builder;Extraordinary Builder;;;;;;;;;;;;;x
+extraordinary_builder_desc;This character can build with extraordinary speed.;;;;;;;;;;;;;x
+extraordinary_plotter;Extraordinary Plotter;;;;;;;;;;;;;x
+extraordinary_plotter_desc;This character is a genius of intrigue.;;;;;;;;;;;;;x
+quick_reinforcements;Quick Reinforcements;;;;;;;;;;;;;x
+quick_reinforcements_desc;This character is able to quickly reinforce the ranks of garrisons and levies.;;;;;;;;;;;;;x
+
+
+# #####
+# flags
+# #####
+has_fully_upgraded_hospital;Has Fully Upgraded Hospital;;;;;;;;;;;;;x
+has_fully_upgraded_hospital_desc;Signifies that the hospital has been fully upgraded in this province.;;;;;;;;;;;;;x
+has_fully_upgraded_fort;Has Fully Upgraded Fort;;;;;;;;;;;;;x
+has_fully_upgraded_fort_desc;Signifies that the fort has been fully upgraded in this province.;;;;;;;;;;;;;x
+has_fully_upgraded_trade_post;Has Fully Upgraded Trade Post;;;;;;;;;;;;;x
+has_fully_upgraded_trade_post_desc;Signifies that the trade post has been fully upgraded in this province.;;;;;;;;;;;;;x
+flag_using_mods_faiterials_buildings;Faiterial's Buildings Mod;;;;;;;;;;;;;x
+flag_using_mods_faiterials_buildings_desc;The realm is using the Faiterial's Buildings Mod.;;;;;;;;;;;;;x
+flag_using_mods_new_buildings_and_effects;New Buildings and Effects Mod;;;;;;;;;;;;;x
+flag_using_mods_new_buildings_and_effects_desc;The realm is using the New Buildings and Effects Mod.;;;;;;;;;;;;;x
+flag_using_mods_peachys_buildings;Peachy's Buildings Mod;;;;;;;;;;;;;x
+flag_using_mods_peachys_buildings_desc;The realm is using the Peachy's Buildings Mod.;;;;;;;;;;;;;x
+flag_using_mods_your_personal_castle;Your Personal Castle Mod;;;;;;;;;;;;;x
+flag_using_mods_your_personal_castle_desc;The realm is using the Your Personal Castle Mod.;;;;;;;;;;;;;x
+
+
+
+###Retinue
+what_retinue_desc;They say cheaters never prosper, right? Show them otherwise with these buildings.;;;;;;;;;;;x
+what_soldiers;Whatonian Troops;;;;;;;;;x
+RETTYPE_WHAT_SOLDIERS;What Retinue;;;;;;;;;x
+
+
+##Traits
+greater_what;Greater What;;;;;;;;;;x
+greater_what_desc;This character, much more vexatious than their Lesser counterparts, is the result of vexatious cheating, and undeniably a cheater.;;;;;;;;;;;x
+what;What;;;;;;;;;;x
+what_desc;This character is the result of vexatious cheating. Practically indestructible.;;;;;;;;;;;x
+lesser_what;Lesser What;;;;;;;;;x
+lesser_what_desc;This character, although not as vexatious as their Greater counterparts, is still a cheater.;;;;;;;;;x
+whatling;Whatling;;;;;;;;;x
+whatling_desc;Powered by What.;;;;;;;;;x
+#what_family;Blood of [GetOnlyDynastyName];;;;;;;;;;;;;
+what_family_desc;This character is a descendant of House [GetOnlyDynastyName].;;;;;;;;;;;;;x
+what_family;Divine Bloodline;;;;;;;;;;;;;
+#what_family_desc;Grant divine blood trait to all of their direct descendants.;;;;;;;;;;;;;x
+
+
+
+
+
+what_loyal;Pia Fidelis;;;;;;;;;;;;;x
+what_loyal_desc;"Members of this dynasty are forever loyal to the Crown, or in other words they are - Pia Fidelis, Latin feminine form for ""pious and faithful"", was the cognomen of several Roman legions, awarded by an emperor when the legion had proved ""devoted and loyal"". Some legions received this honour several times, and their name included the number of awards.";;;;;;;;;;;;;x
+what_title_founder;Make a Noble;;;;;;;;;;;;;
+what_title_founder_desc;"This dynasty is one of the new nobility, parvenu! They are less respected than old ones like Capetings, Welfs etc. This character is a descendant of a humble background who has rapidly gained wealth or an influential social position; a nouveau riche; an upstart, a social climber. ";;;;;;;;;;;;;x
+#found_what;Make a Noble;;;;;;;;;;;;;
+#found_what_desc;"This dynasty is one of the new nobility, parvenu! They are less respected than old ones like Capetings, Welfs etc. This character is a descendant of a humble background who has rapidly gained wealth or an influential social position; a nouveau riche; an upstart, a social climber. ";;;;;;;;;;;;;x
+#what_founder;Noble family;;;;;;;;;;;;;
+#what_founder_desc;"This character is a member of a new noble family of noble origin. He is a descendant of a humble background who has rapidly gained wealth or an influential social position; a nouveau riche; an upstart, a social climber.";;;;;;;;;;;;;x
+what_title_royal;Royal blood;;;;;;;;;;;;;x
+what_title_royal_desc;Grant Prince Title;;;;;;;;;;;;;x
+what_royal;of Royal blood;;;;;;;;;;;;;x
+what_royal_desc;This character is of royal blood. He is a direct male descendant of a King or Emperor and counts as a great noble. ;;;;;;;;;;;;;x

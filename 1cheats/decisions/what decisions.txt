@@ -1,0 +1,849 @@
+decisions = {
+
+    #what_enable = {
+        #potential = { 
+            #ai = no
+            #NOT = { has_character_flag = enabled_what } 
+        #}
+        #allow = { always = yes }
+        #effect = { set_character_flag = what_enabled }
+        #ai_will_do = { factor = 0 }
+    #}
+    #what_disable = {
+        #potential = { 
+            #ai = no
+            #FROM = { has_character_flag = enabled_what }
+        #}
+        #allow = { always = yes }
+        #effect = { clr_character_flag = what_enabled }
+        #ai_will_do = { factor = 0 }
+    #}
+    
+    become_lesser_what = { #First Phase
+        is_high_prio = yes
+        potential = { 
+            #ai = no
+            #FROM = { has_character_flag = enabled_what }
+            NOT = { trait = lesser_what }
+            NOT = { trait = greater_what }
+        }
+        allow = { always = yes }
+        effect = {
+            add_trait = lesser_what
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    become_what = { #Second Phase
+        is_high_prio = yes
+        potential = {
+            #ai = no
+            #FROM = { has_character_flag = enabled_what }
+            OR = {
+                trait = lesser_what
+                trait = greater_what
+            }
+            NOT = { trait = what }
+        }
+        allow = { always = yes }
+        effect = {
+            remove_trait = lesser_what
+            add_trait = what
+            remove_trait = greater_what
+        }
+        ai_will_do = { factor = 0 }
+    }
+    become_greater_what = { #Third Phase
+        is_high_prio = yes
+        potential = {
+            #ai = no
+            #FROM = { has_character_flag = enabled_what }
+            trait = what
+            NOT = { trait = greater_what }
+            NOT = { trait = lesser_what }
+        }
+        allow = { always = yes }
+        effect = {
+            remove_trait = what
+            add_trait = greater_what
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+    what_cash = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            }
+            #has_character_flag = what_enabled
+        }
+        effect = { wealth = 5000 }
+        ai_will_do = { factor = 0 }
+    }
+    what_prestige = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            }
+        }
+        effect = { prestige = 5000 }
+        ai_will_do = { factor = 0 }
+    }
+    what_piety = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            }
+        }
+        effect = { piety = 5000 }
+        ai_will_do = { factor = 0 }
+    }
+    what_tech = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            }
+        }
+        effect = {
+            culture_techpoints = 5000
+            military_techpoints = 5000
+            economy_techpoints = 5000
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+    what_religious_conversion = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            } 
+            #has_character_flag = what_enabled
+        }
+        effect = {
+            any_realm_character = { religion = ROOT }
+            any_realm_province = { religion = ROOT }
+        }
+        ai_will_do = { factor = 0 }
+    }
+    what_culture_conversion = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            }
+            #has_character_flag = what_enabled
+        }
+        effect = {
+            any_realm_character = { culture = ROOT }
+            any_realm_province = { culture = ROOT }
+        }
+        ai_will_do = { factor = 0 }
+    }
+    what_ethnicity_conversion = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            } 
+        }
+        effect = {
+            hidden_tooltip = {
+                top_liege = {
+                    any_realm_character = {
+                        set_graphical_culture = ROOT
+                    }
+                }
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+    add_male_cousin = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            } 
+            
+        }
+        allow = { always = yes }
+        effect = {
+            create_character = {
+                random_traits = yes
+                dynasty = ROOT
+                religion = ROOT
+                culture = ROOT
+                race = ROOT
+                male = yes
+                age = 16
+                health = 200
+            }
+        }
+        revoke_allowed = { always = no }
+        ai_will_do = { factor = 0 }
+    }    
+    add_female_cousin = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            } 
+            
+        }
+        allow = { always = yes }
+        effect = { 
+            create_character = {
+                random_traits = yes
+                dynasty = ROOT
+                religion = ROOT
+                culture = ROOT
+                race = ROOT
+                female = yes
+                age = 16
+                health = 200
+            }
+        }
+        revoke_allowed = { always = no }
+        ai_will_do = { factor = 0 }
+    }
+    add_male_child = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            } 
+            
+        }
+        allow = { always = yes }
+        effect = {
+            create_character = {
+                random_traits = yes
+                dynasty = ROOT
+                religion = ROOT
+                culture = ROOT
+                race = ROOT
+                flag = spawned_child
+                female = no
+                age = 6
+                health = 6
+            }
+            hidden_tooltip = {
+
+                if = {
+                    limit = {
+                        is_female = yes
+                    }
+                    any_courtier = {
+                        limit = {
+                            has_character_flag = spawned_child
+                        }
+                        set_mother = ROOT
+                    }
+                    spouse = {
+                        ROOT = {
+                            any_courtier = {
+                                limit = {
+                                    has_character_flag = spawned_child
+                                }
+                                set_father = PREVPREV
+                            }
+                        }
+                    }
+                }
+
+                if = {
+                    limit = {
+                        is_female = no
+                    }
+                    any_courtier = {
+                        limit = {
+                            has_character_flag = spawned_child
+                        }
+                        set_father = ROOT
+                    }
+                    spouse = {
+                        ROOT = {
+                            any_courtier = {
+                                limit = {
+                                    has_character_flag = spawned_child
+                                }
+                                set_mother = PREVPREV
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    add_female_child = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            } 
+            
+        }
+        allow = { always = yes }
+        effect = {
+            create_character = {
+                random_traits = yes
+                dynasty = ROOT
+                religion = ROOT
+                culture = ROOT
+                race = ROOT
+                flag = spawned_child
+                female = yes
+                age = 6
+                health = 6
+            }
+            hidden_tooltip = {
+
+                if = {
+                    limit = {
+                        is_female = yes
+                    }
+                    any_courtier = {
+                        limit = {
+                            has_character_flag = spawned_child
+                        }
+                        set_mother = ROOT
+                    }
+                    spouse = {
+                        ROOT = {
+                            any_courtier = {
+                                limit = {
+                                    has_character_flag = spawned_child
+                                }
+                                set_father = PREVPREV
+                            }
+                        }
+                    }
+                }
+
+                if = {
+                    limit = {
+                        is_female = no
+                    }
+                    any_courtier = {
+                        limit = {
+                            has_character_flag = spawned_child
+                        }
+                        set_father = ROOT
+                    }
+                    spouse = {
+                        ROOT = {
+                            any_courtier = {
+                                limit = {
+                                    has_character_flag = spawned_child
+                                }
+                                set_mother = PREVPREV
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    add_male_teenager = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            } 
+            
+        }
+        allow = { always = yes }
+        effect = {
+            create_character = {
+                random_traits = yes
+                dynasty = ROOT
+                religion = ROOT
+                culture = ROOT
+                race = ROOT
+                flag = spawned_child
+                female = no
+                age = 16
+                health = 6
+            }
+            hidden_tooltip = {
+
+                if = {
+                    limit = {
+                        is_female = yes
+                    }
+                    any_courtier = {
+                        limit = {
+                            has_character_flag = spawned_child
+                        }
+                        set_mother = ROOT
+                    }
+                    spouse = {
+                        ROOT = {
+                            any_courtier = {
+                                limit = {
+                                    has_character_flag = spawned_child
+                                }
+                                set_father = PREVPREV
+                            }
+                        }
+                    }
+                }
+
+                if = {
+                    limit = {
+                        is_female = no
+                    }
+                    any_courtier = {
+                        limit = {
+                            has_character_flag = spawned_child
+                        }
+                        set_father = ROOT
+                    }
+                    spouse = {
+                        ROOT = {
+                            any_courtier = {
+                                limit = {
+                                    has_character_flag = spawned_child
+                                }
+                                set_mother = PREVPREV
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    add_female_teenager = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            } 
+            
+        }
+        allow = { always = yes }
+        effect = {
+            create_character = {
+                random_traits = yes
+                dynasty = ROOT
+                religion = ROOT
+                culture = ROOT
+                race = ROOT
+                flag = spawned_child
+                female = yes
+                age = 16
+                health = 6
+            }
+            hidden_tooltip = {
+
+                if = {
+                    limit = {
+                        is_female = yes
+                    }
+                    any_courtier = {
+                        limit = {
+                            has_character_flag = spawned_child
+                        }
+                        set_mother = ROOT
+                    }
+                    spouse = {
+                        ROOT = {
+                            any_courtier = {
+                                limit = {
+                                    has_character_flag = spawned_child
+                                }
+                                set_father = PREVPREV
+                            }
+                        }
+                    }
+                }
+
+                if = {
+                    limit = {
+                        is_female = no
+                    }
+                    any_courtier = {
+                        limit = {
+                            has_character_flag = spawned_child
+                        }
+                        set_father = ROOT
+                    }
+                    spouse = {
+                        ROOT = {
+                            any_courtier = {
+                                limit = {
+                                    has_character_flag = spawned_child
+                                }
+                                set_mother = PREVPREV
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    what_remove_bad_modifiers_from_provinces = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            }
+            #has_character_flag = what_enabled
+            any_realm_title = {
+                #limit = { tier = BARON }
+                has_holding_modifier = new_administration
+                has_holding_modifier = recently_conquered
+                has_holding_modifier = looted_modifier
+            }
+        }
+        effect = {
+            any_realm_title = {
+                #limit = { tier = BARON }
+                remove_holding_modifier = new_administration
+                remove_holding_modifier = recently_conquered
+                remove_holding_modifier = looted_modifier
+                refill_holding_levy = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+    revoke_what = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            }
+            #has_character_flag = what_enabled
+            any_realm_title = {
+                NOT = { holder = ROOT }
+            }
+        }
+        effect = {
+            any_vassal = {
+                any_vassal = {
+                    any_vassal = {
+                        any_vassal = {
+                            any_demesne_title = {
+                                gain_title = ROOT
+                                limit = {
+                                    OR = {
+                                        tier = count
+                                        tier = baron
+                                    }
+                                }
+                            }
+                        }
+                        any_demesne_title = {
+                            gain_title = ROOT
+                            limit = {
+                                OR = {
+                                    tier = count
+                                    tier = baron
+                                }
+                            }
+                        }
+                    }
+                    any_demesne_title = {
+                        gain_title = ROOT
+                        limit = {
+                            OR = {
+                                tier = count
+                                tier = baron
+                            }
+                        }
+                    }
+                }
+                any_demesne_title = {
+                    gain_title = ROOT
+                    limit = {
+                        OR = {
+                            tier = count
+                            tier = baron
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+    what_religious_authority = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            }
+            NOT = { religion_authority = 1}
+        }
+        effect = { religion_authority = { modifier = god_amongst_men } }
+        ai_will_do = { factor = 0 }
+    }
+    what_independent = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            }
+            independent = no
+        }
+        effect = { set_defacto_liege = THIS }
+        ai_will_do = { factor = 0 }
+    }
+
+    what_threat_level = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            }
+        }
+        effect = {
+            ROOT = { 
+                change_infamy = {
+                    value = -10000
+                }
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+    what_all_courtiers = {
+        potential = {
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            }
+        }
+        effect = {
+            any_courtier = {
+                limit = {
+                    NOR = { 
+                    dynasty = ROOT
+                    is_married = ROOT
+                    is_consort = ROOT
+                    is_friend = ROOT
+                    is_lover = ROOT
+                    is_ruler = yes
+                    is_mother = ROOT
+                    is_father = ROOT
+
+                    }
+                }
+                death = { death_reason = death_murder_unknown killer = FROM } 
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+    what_feudal = {
+        potential = {
+            is_playable = yes
+            is_tribal = yes
+            independent = yes
+            OR = {
+                trait = lesser_what
+                trait = what
+                trait = greater_what
+            }
+        }
+        allow = {
+            war = no
+            custom_tooltip = {
+                text = TT_NOT_UNREFORMED_PAGAN
+                hidden_tooltip = {
+                    OR = {
+                        NOT = { religion_group = pagan_group }
+                        is_reformed_religion = yes
+                    }
+                }
+            }
+            primary_title = { has_law = tribal_organization_4 }
+            capital_holding = {
+                OR = {
+                    AND = {
+                        holding_type = tribal
+                        has_building = tb_hillfort_4
+                    }
+                    holding_type = castle
+                }
+            }
+        }
+        
+        effect = {
+            if = {
+                limit = { ai = no }
+                set_character_flag = achievement_not_a_tribe
+            }
+            
+            if = {
+                limit = {
+                    NOT = { religion_group = muslim }
+                    NAND = {
+                        culture_group = tibetan_group
+                        OR = {
+                            religion = bon
+                            religion = bon_reformed
+                            religion = buddhist
+                        }
+                        higher_tier_than = BARON
+                    }
+                }
+                
+                if = {
+                    limit = {
+                        ai = no
+                    }
+                    chronicle = {
+                        entry = CHRONICLE_ADOPTED_FEUDALISM
+                        picture = GFX_evt_castle_construction
+                    }
+                }
+                set_government_type = feudal_government
+            }
+            
+            if = {
+                limit = {
+                    religion_group = muslim
+                }
+                
+                if = {
+                    limit = {
+                        ai = no
+                    }
+                    chronicle = {
+                        entry = CHRONICLE_ADOPTED_IQTA
+                        picture = GFX_evt_castle_construction
+                    }
+                }
+                set_government_type = muslim_government
+            }
+            
+            if = {
+                limit = {
+                    culture_group = tibetan_group
+                    OR = {
+                        religion = bon
+                        religion = bon_reformed
+                        religion = buddhist
+                    }
+                    higher_tier_than = BARON
+                }
+                
+                if = {
+                    limit = {
+                        ai = no
+                    }
+                    chronicle = {
+                        entry = CHRONICLE_ADOPTED_FEUDALISM
+                        picture = GFX_evt_castle_construction
+                    }
+                }
+                set_government_type = theocratic_feudal_government
+            }
+            
+            if = {
+                limit = {
+                    higher_tier_than = king
+                }
+                primary_title = {
+                    add_law = feudal_administration
+                }
+            }
+            
+            hidden_tooltip = {
+                any_demesne_title = {
+                    limit = {
+                        tier = baron
+                        holding_type = tribal
+                    }
+                    convert_to = CASTLE
+                    refill_holding_levy = yes
+                    location = { #Clear Tribal Great Pillars
+                        clr_province_flag = flag_great_pillar_norse
+                        clr_province_flag = flag_great_pillar_tengri
+                        clr_province_flag = flag_great_pillar_slavic
+                        clr_province_flag = flag_great_pillar_baltic
+                        clr_province_flag = flag_great_pillar_finnish
+                        clr_province_flag = flag_great_pillar_west_african
+                        clr_province_flag = flag_great_pillar_aztec
+                        clr_province_flag = flag_great_pillar_bon
+                        clr_province_flag = flag_great_pillar_zun
+                        clr_province_flag = flag_great_pillar_hellenic
+                    }
+                    
+                    if = {
+                        limit = {
+                            dejure_liege_title = {
+                                holder = ROOT
+                                location = {
+                                    num_of_empty_holdings = 2
+                                }
+                                NOT = {
+                                    any_direct_de_jure_vassal_title = {
+                                        holding_type = city
+                                    }
+                                }
+                            }
+                        }
+                        location = {
+                            build_holding = {
+                                type = city
+                            }
+                        }
+                    }
+                    if = {
+                        limit = {
+                            dejure_liege_title = {
+                                holder = ROOT
+                                location = {
+                                    num_of_empty_holdings = 2
+                                }
+                                NOT = {
+                                    any_direct_de_jure_vassal_title = {
+                                        holding_type = temple
+                                    }
+                                }
+                            }
+                        }
+                        location = {
+                            build_holding  ={
+                                type = temple
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+
+
+}
